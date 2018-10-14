@@ -78,7 +78,7 @@ Multiple trials went underway for the growth of J2T in knockout MetE media to de
     <td>Growth</td>
   </tr>
   <tr>
-    <td colspan="5">*WHAT DOES THAT STAR MEAN</td>
+    <td colspan="5">*OD was around 0.1 (there was clear growth but not much)</td>
   </tr>
 </table>
 
