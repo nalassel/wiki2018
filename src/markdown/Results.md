@@ -188,9 +188,15 @@ Cells (specifically BW 29655 E. coli) expressing GFP under the CcaR promoter wer
 The container on the right was the one grown under green light, and it is very clearly distinguishable from the container on the right.
 
 ## Box Design and Test with Photodiode
+A box was designed using AutoDesk Inventor (a 3D computer aided design software) to hold the components of the measurement system (sample tube, LED and photodiode/camera) in place for each measurement as well as to block out ambient light.  Using CAD software also allows us to 3D print the final box design.  The measurement system involves exciting the GFP with an LED (488 nm) and measuring the emitted fluorescence (510 nm).  To measure the emitted light without measuring the excitation light from the LED, the filter lent to us by the Reed lab was used so that only 510 nm light would be absorbed by the photodiode/camera.  See the first image below for the initial box design, and the second image below for the principle of operation.
+
+![alt text](http://2018.igem.org/wiki/images/5/53/T--Waterloo--boxDesign.png)
+![alt text](http://2018.igem.org/wiki/images/1/15/T--Waterloo--boxPrincipleOfOperation.png)
+
+The box was initially tested using a cardboard box with holes cut as shown in the CAD drawing.  We made measurements of the sample tube in the box with a photodiode.  The box prevented ambient light from entering the system and kept the parts in place, however we found inconsistent readings while using the photodiode so we decided to try using a camera instead.  We also found that our initial placements of the components was not optimal and we performed an experiment to optimize the distances and placements of components without the box.
 
 ## Quantification Test with Camera
-After the unclear result of the test with the original box apparatus, it was determined that the test using the camera should be redone in a more quantitative manner. Similarly to the initial experiment, E. coli (this time JT2 containing GFP under the CcaR promoter) were grown up to an OD of ~0.6 in complete M9. Two samples were grown under green light, and two under red light.
+After the unclear results of the test with the original box apparatus, it was determined that the test using the camera should be redone in a more quantitative manner. Similarly to the initial experiment, E. coli (this time JT2 containing GFP under the CcaR promoter) were grown up to an OD of ~0.6 in complete M9. Two samples were grown under green light, and two under red light.
 
 The tubes were arranged in a row in front of an iPhone camera, which had a light filter in front of it that blocked out green light. The tubes were placed in two alternate arrangements, and a movie was taken of the blue LED being passed behind them. See below for one of the movies taken.
 
@@ -218,9 +224,23 @@ Following the successful quantization experiment, the team determined that it wa
 
 The green squares represent positions for the camera, the red squares represent positions for the blue LED, and the white circle represents the sample. Every combination of position was tried.
 
-For the samples, new cells were used. DH5alpha containing a GFP-expressing cassette (registry part I20270) in pSB1C3 was used as a “fluorescent” strain and empty JT2 was used as a “non-fluorescent” strain. Both cultures were grown up from frozen stock overnight in LB, then the cells were moved to complete M9 for ~3 hours of growth. After the end of this growth, 
+For the samples, new cells were used. DH5alpha containing a GFP-expressing cassette (registry part I20270) in pSB1C3 was used as a “fluorescent” strain (called strain 346) and empty JT2 was used as a “non-fluorescent” strain. Both cultures were grown up from frozen stock overnight in LB, then the cells were moved to complete M9 for ~3 hours of growth. After the end of this growth, the fluorescence of the JT2 and strain 346 was taken using the flow cytometer. Under a laser intensity of 10 mW and using samples of size 10,000 cells, the fluorescence in arbitrary units was 2375 for strain 346 and 19 for JT2.
+
+From a previous experiment (see online lab book page 111), we have reason to expect that the OD to cells per mL relationship is similar for empty JT2 and strain 346. After 3 hours of growth in M9, JT2 was at an OD of ~0.15 and 346 was at an OD of ~0.3. Strain 346 was diluted down to an OD of ~0.15 with PBS, and then two 25 mL samples were prepared of each strain. Two ~50/50 mixtures of the strains were also prepared.
+
+After the combination of camera and LED positions were tried, several things became apparent.
+The readings from all camera positions were less consistent between duplicates when the LED was 30 cm away. This was most likely because small changes in sample position or LED orientation resulted in large changes in how the light bounced off the sample tube. Therefore, it is better to have the LED 10 cm away from the sample.
+When the camera was 5 cm away, it could not focus properly. Therefore, it is better to have the camera 20 cm away.
+When the LED, sample, and camera are in a line, the light coming from the LED can saturate the image; it goes white making it hard to distinguish fluorescent and non-fluorescent cells. Therefore it is best to have the path from the sample to the LED and the path from the sample to the camera be perpendicular.
+
+From the above observations, it became clear that the best setup was to have the camera 10 cm away from the sample, the camera 20 cm from the sample, and the LED-sample-camera path should be in an L shape. For that particular set up, the results below were obtained after analysis using the Python program for getting average RGB values.
+
+![alt text](http://2018.igem.org/File:T--Waterloo--Sept24_resultsTableForGoodPosition.png)
+
+The results are a simple average between the values for the duplicates. As one can see, strain 346 is clearly more fluorescent than JT2, and the mixture is of an intermediate fluorescence. This confirms that the system can be used to measure fluorescence and distinguish between different mixtures of fluorescent and non-fluorescent cells. The mixture should have been ~50% fluorescent cells, and by linear interpolation one can get that the mixture is 58% fluorescent cells (from the calculation (100%)*(94.7-71.85)/(111.25-71.85)).
 
 ## Second Design and Future Experiments
+
 
 
 
