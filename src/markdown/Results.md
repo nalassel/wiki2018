@@ -175,7 +175,21 @@ Our comparison of the flow cytometer against pour plating started with a fluores
 </table>
  
 These results lead us to believe that the flow cytometer is representative of pour plating, indicating that the flow cytometer is most likely capable of giving accurate readings of a 50/50 population of fluorescent/non-fluorescent cells.
- 
+
+# MetE Metabolic Load Experiment
+
+Four sample tubes of JT2 containing the CcaS/R system in M9 were made, and all were placed in the turbidostat. The samples were made by inoculating the cells off a plate into complete M9 made with casamino acids as the amino acid source.
+
+Two samples were grown under only red light, and two under only green light. The cells were allowed to grow for 3 hours to acclimatize them to the light conditions they were being kept under. By defining the time of the first OD measurement as time 0, the following trend of OD versus time is obtained (note that the first time point was actually excluded because OD was measured incorrectly by accident for that time):
+
+![alt text](http://2018.igem.org/wiki/images/5/58/T--Waterloo--August21_ODvsTime.png)
+
+Upon examining growth rate over time, it became clear that doubling time was changing gradually but appreciably as OD increased. Therefore, to analyze the data, instantaneous doubling time was plotted against OD. The following graph was attained:
+
+![alt text](http://2018.igem.org/wiki/images/5/59/T--Waterloo--August21_doublingTimeVsOD.png)
+
+Though it is unfortunate that doubling time increases with OD, the general trend appears to be approximately the same regardless of light conditions. Therefore, it was determined that the metabolic load of MetE expression was negligible if it existed at all.
+
 # ROBOT
 
 ## Initial Experiment
