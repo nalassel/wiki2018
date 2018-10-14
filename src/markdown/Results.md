@@ -188,7 +188,7 @@ Upon examining growth rate over time, it became clear that doubling time was cha
 
 ![alt text](http://2018.igem.org/wiki/images/5/59/T--Waterloo--August21_doublingTimeVsOD.png)
 
-Though it is unfortunate that doubling time increases with OD, the general trend appears to be approximately the same regardless of light conditions. Therefore, it was determined that the metabolic load of MetE expression was negligible if it existed at all.
+Though it is unfortunate that doubling time increases with OD, the general trend appears to be approximately the same regardless of light conditions. Therefore, it was determined that the metabolic load of MetE expression was negligible if it existed at all. See pages 77 to 79 in the online lab book for additional details.
 
 # “Robot” Experiments
 
