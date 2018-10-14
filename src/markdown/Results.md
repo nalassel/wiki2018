@@ -190,6 +190,8 @@ Upon examining growth rate over time, it became clear that doubling time was cha
 
 Though it is unfortunate that doubling time increases with OD, the general trend appears to be approximately the same regardless of light conditions. Therefore, it was determined that the metabolic load of MetE expression was negligible if it existed at all. See pages 77 to 79 in the online lab book for additional details.
 
+NOTE: The increase of doubling time with OD was most likely a result of bad stirring of the samples in the turbidostat.
+
 # “Robot” Experiments
 
 ## Initial Experiment
