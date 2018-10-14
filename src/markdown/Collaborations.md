@@ -1,5 +1,3 @@
-# Collaborations 
-
 The philosophy behind our project is that we can do better things when we work together - whether that be microbes working together in a co-culture, or iGEM teams collaborating! Here, we will outline the collaborations we've participated in this year. 
 
 ## Interlab 
