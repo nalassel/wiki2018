@@ -190,7 +190,7 @@ Upon examining growth rate over time, it became clear that doubling time was cha
 
 Though it is unfortunate that doubling time increases with OD, the general trend appears to be approximately the same regardless of light conditions. Therefore, it was determined that the metabolic load of MetE expression was negligible if it existed at all.
 
-# ROBOT
+# “Robot” Experiments
 
 ## Initial Experiment
 Having determined the utility of an automated sampling system, the team first set out to confirm whether or not cells with different levels of GFP expressed could be visually distinguished when exposed to a ~488 nm light source. To this end, a light source with a peak emission at 488 nm and a light filter capable of letting green light but not blue light pass through was borrowed from the Reed lab at the University of Waterloo.
