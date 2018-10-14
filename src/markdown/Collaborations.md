@@ -37,4 +37,13 @@ One of our team members, Max Reed, who led our [amyloid-related iGEM project](ht
 ## Public Engagement & Outreach
   
  **SynBio Postcards**
- We participated in Heinrich-Heine University, Duesseldorf's 
+We participated in Heinrich-Heine University, Duesseldorf's [postcard collaboration](http://2018.igem.org/Teams/Collaborations#collab_1) along with several iGEM teams from all over the world. We designed a postcard communicating our project visually. The purpose was to increase public awareness of synthetic biology and our projects. Here's our postcard: 
+
+[insert postcard photo] 
+
+Check out [other teams' postcards](http://2018.igem.org/Team:Duesseldorf/Collaborations)! 
+
+**Co-cultures video**
+Having collaborated with the Duesseldorf iGEM team, we learned more about their project and realized that both our projects aim to solve the same problem - but in different ways! We reached out to them and asked them to help us make a video explaining the importance of co-cultures. This video aims to engage/inform the general public on co-cultures and serve as an introduction to our projects. 
+
+[Insert co-cultures video]
