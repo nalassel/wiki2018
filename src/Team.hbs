@@ -8,7 +8,7 @@
       <div class="squiggle squiggleForward col-xs-4"></div>
       <div class="titleCaption col-xs-4">
         <h1>
-          Our Lit Team
+          Our Team
         </h1>
       </div>
       <div class="squiggle squiggleBackward col-xs-4"></div>
@@ -18,7 +18,7 @@
     <div>
       <div class="ip-group-wrapper">
         <div class="memberList row" v-for="memberPair in memberPairs">
-          <div class="col-sm-3">
+            <div class="col-sm-3">
             <div class="lightbulb" v-bind:style="{ backgroundImage: 'url(' + memberPair[0].picture + ')' }"></div>
           </div>
           <div class="col-sm-3">
@@ -69,7 +69,7 @@ var teamPage = new Vue({
       {'name': 'Amanda Kuang', 'picture': 'CHANGE', 'year': '2B Biochemistry', 'subteam': 'Lab', 'bio': 'Waterloo iGEM is hot to go, spelled H-O-T-T-O-G-O'},
       {'name': 'Vincent Halim', 'picture': 'http://2018.igem.org/wiki/images/b/b3/T--Waterloo--team-Vincent.jpeg', 'year': '4A Biochemistry, Biotechnology Specialization', 'subteam': 'Lab', 'bio': 'Spend hours making YPD plates, then sneezed at it'},
       {'name': 'Caleb Innes', 'picture': 'http://2018.igem.org/wiki/images/a/a2/T--Waterloo--team-Caleb.jpeg', 'year': '3A Honours Science', 'subteam': 'Lab', 'bio': 'Don\’t put ladder into your sample wells ...'},
-      {'name': 'Cody Receno', 'picture': http://2018.igem.org/wiki/images/4/45/T--Waterloo--team-Cody.jpeg', 'year': '4A Computer Science and Bioformatics', 'subteam': 'Math', 'bio': 'My third year on iGEM and it was truly a different experience. The people on Waterloo iGEM have inspired me greatly.'},
+      {'name': 'Cody Receno', 'picture': 'http://2018.igem.org/wiki/images/4/45/T--Waterloo--team-Cody.jpeg', 'year': '4A Computer Science and Bioformatics', 'subteam': 'Math', 'bio': 'My third year on iGEM and it was truly a different experience. The people on Waterloo iGEM have inspired me greatly.'},
       {'name': 'John Dewhurst', 'picture': 'http://2018.igem.org/wiki/images/4/4e/T--Waterloo--team-John.jpeg', 'year': '4B Applied Mathematics, Biology Minor', 'subteam': 'Math', 'bio': 'Strange things happen at infinity'},
       {'name': 'Michael Astwood', 'picture': 'CHANGE', 'year': '2B Mathematical Physics, Astrophysics and Pure Math minors', 'nickname': ':^)', 'subteam': 'Math', 'bio': 'Bacteria sure are nifty'},
       {'name': 'Alina Arvisais', 'picture': 'http://2018.igem.org/wiki/images/c/ce/T--Waterloo--team-Alina.jpeg', 'year': '2A Biochemistry ', 'subteam': 'Math'},
@@ -94,12 +94,6 @@ var teamPage = new Vue({
     }},
   computed: {
     memberPairs: function () {
-    console.log('blah');
-    console.log(this.ip.members.reduce(function(result, value, index, array) {
-      if (index % 2 === 0)
-        result.push(array.slice(index, index + 2));
-      return result;
-    }, []));
     return this.ip.members.reduce(function(result, value, index, array) {
       if (index % 2 === 0)
         result.push(array.slice(index, index + 2));
