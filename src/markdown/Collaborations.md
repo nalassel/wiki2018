@@ -37,6 +37,6 @@ One of our team members, Max Reed, who led our [amyloid-related iGEM project](ht
  - amyloid protein overexpression and inclusion body formation 
 
 ## Public Engagement & Outreach
- 
+  
  **SynBio Postcards**
  We participated in Heinrich-Heine University, Duesseldorf's 
