@@ -235,7 +235,7 @@ When the LED, sample, and camera are in a line, the light coming from the LED ca
 
 From the above observations, it became clear that the best setup was to have the camera 10 cm away from the sample, the camera 20 cm from the sample, and the LED-sample-camera path should be in an L shape. For that particular set up, the results below were obtained after analysis using the Python program for getting average RGB values.
 
-![alt text](http://2018.igem.org/File:T--Waterloo--Sept24_resultsTableForGoodPosition.png)
+![alt text](http://2018.igem.org/wiki/images/c/c9/T--Waterloo--Sept24_resultsTableForGoodPosition.png)
 
 The results are a simple average between the values for the duplicates. As one can see, strain 346 is clearly more fluorescent than JT2, and the mixture is of an intermediate fluorescence. This confirms that the system can be used to measure fluorescence and distinguish between different mixtures of fluorescent and non-fluorescent cells. The mixture should have been ~50% fluorescent cells, and by linear interpolation one can get that the mixture is 58% fluorescent cells (from the calculation (100%)*(94.7-71.85)/(111.25-71.85)).
 
