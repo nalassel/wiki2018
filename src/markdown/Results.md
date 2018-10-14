@@ -78,7 +78,7 @@ Multiple trials went underway for the growth of J2T in knockout MetE media to de
     <td>Growth</td>
   </tr>
   <tr>
-    <td colspan="5">*WHAT DOES THAT STAR MEAN</td>
+    <td colspan="5">*OD was around 0.1 (there was clear growth but not much)</td>
   </tr>
 </table>
 
@@ -175,8 +175,24 @@ Our comparison of the flow cytometer against pour plating started with a fluores
 </table>
  
 These results lead us to believe that the flow cytometer is representative of pour plating, indicating that the flow cytometer is most likely capable of giving accurate readings of a 50/50 population of fluorescent/non-fluorescent cells.
- 
-# ROBOT
+
+# MetE Metabolic Load Experiment
+
+Four sample tubes of JT2 containing the CcaS/R system in M9 were made, and all were placed in the turbidostat. The samples were made by inoculating the cells off a plate into complete M9 made with casamino acids as the amino acid source.
+
+Two samples were grown under only red light, and two under only green light. The cells were allowed to grow for 3 hours to acclimatize them to the light conditions they were being kept under. By defining the time of the first OD measurement as time 0, the following trend of OD versus time is obtained (note that the first time point was actually excluded because OD was measured incorrectly by accident for that time):
+
+![alt text](http://2018.igem.org/wiki/images/5/58/T--Waterloo--August21_ODvsTime.png)
+
+Upon examining growth rate over time, it became clear that doubling time was changing gradually but appreciably as OD increased. Therefore, to analyze the data, instantaneous doubling time was plotted against OD. The following graph was attained:
+
+![alt text](http://2018.igem.org/wiki/images/5/59/T--Waterloo--August21_doublingTimeVsOD.png)
+
+Though it is unfortunate that doubling time increases with OD, the general trend appears to be approximately the same regardless of light conditions. Therefore, it was determined that the metabolic load of MetE expression was negligible if it existed at all. See pages 77 to 79 in the online lab book for additional details.
+
+NOTE: The increase of doubling time with OD was most likely a result of bad stirring of the samples in the turbidostat.
+
+# “Robot” Experiments
 
 ## Initial Experiment
 Having determined the utility of an automated sampling system, the team first set out to confirm whether or not cells with different levels of GFP expressed could be visually distinguished when exposed to a ~488 nm light source. To this end, a light source with a peak emission at 488 nm and a light filter capable of letting green light but not blue light pass through was borrowed from the Reed lab at the University of Waterloo.
