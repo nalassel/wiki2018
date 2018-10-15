@@ -11,7 +11,7 @@ We gifted the Guelph iGEM team with black, flat, clear-bottomed, 96 well plates.
 
 We gave the McMaster iGEM team *E. coli* DH5-alpha cells so that they could meet [requirement #2 for successful completion of the interlab study](http://2018.igem.org/Measurement/InterLab). 
 
-![MacImage|200px|Thumb|alt text](http://parts.igem.org/wiki/images/4/4b/T--Waterloo-Collaborations_mGEM.jpg) 
+![MacImage](http://parts.igem.org/wiki/images/4/4b/T--Waterloo-Collaborations_mGEM.jpg) 
 
 ## Mentoring, Brainstorming, and Troubleshooting
 **McMaster iGEM**
