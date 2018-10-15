@@ -65,7 +65,7 @@ Calibration #2 measured the Abs600 of a dilution series of monodisperse silica m
 
 The first attempt was conducted using the Molecular Devices Model F5 reader, pipetting up and down in each well prior to reading. The absorbance plot (fig. 3) shows a strong positive correlation (R^2 = 0.9839), but there is visible deviation from a straight line. The relatively large error bars also show poor agreement between replicates. 
 
-[Insert figure 3]
+![Insert figure 3](http://parts.igem.org/wiki/images/6/61/T--Waterloo-Interlab_Fig3.png) 
 
 Fig. 3. Absorbance plot for calibration #2 attempt 1. Error bars represent standard deviation.
 
