@@ -91,6 +91,8 @@ Below, we’ve included four educational videos which we’ve shared with audien
 
 ### A-Z of Synthetic Biology (Parody Video)
 
+![A-Z Parody](http://2018.igem.org/wiki/images/4/42/T--Waterloo--E%26E-AZparody.mp4)
+
 ### Debunking Synbio Myths
 
 ### Co-Cultures
