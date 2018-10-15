@@ -7,7 +7,7 @@ We found the interlab particularly interesting this year because it also related
 
 We gifted the Guelph iGEM team with black, flat, clear-bottomed, 96 well plates. 
 
-![guelphImage]](http://parts.igem.org/wiki/images/7/75/T--Waterloo-Collaborations_guelph.jpeg)
+![guelphImage](http://parts.igem.org/wiki/images/7/75/T--Waterloo-Collaborations_guelph.jpeg)
 
 **McMaster iGEM**
 
