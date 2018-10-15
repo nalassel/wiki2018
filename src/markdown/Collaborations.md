@@ -32,10 +32,11 @@ Members from both our teams also attended [Western SynBio Symposium 3.0](https:/
  - how to obtain and maintain funding 
  
 **oGEM (Ontario iGEM Meet Up)**
+![ogem](http://2018.igem.org/wiki/images/0/06/T--Waterloo--Collaborations_ogem.jpg) 
 On July 28th, 2018, we ventured to McMaster University for the anual oGEM meet up. We gathered with iGEM teams from all over Ontario, Canada. We each presented our projects, progress, and obstacles we were facing. We all provided/received feedback from one another. 
 
 One of our team members, Max Reed, who led our [amyloid-related iGEM project](http://2017.igem.org/Team:Waterloo) last year talked to the McMaster iGEM team. They're doing an [amyloid project](http://2018.igem.org/Team:McMaster) this year. We discussed: 
- - obtaining bacterial growth curves, and which medium to use for best resuults
+ - obtaining bacterial growth curves, and which medium to use for best results
  - amyloid protein overexpression and inclusion body formation 
 
 ## Public Engagement & Outreach
