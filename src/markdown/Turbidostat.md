@@ -1,21 +1,47 @@
-Page:
-http://2018.igem.org/Team:Waterloo/Turbidostat
-
 # Turbidostat
 
-A turbidostat is a machine capable of maintaining the optical density, or turbidity, of a cell culture in liquid medium. Brian Ingalls, one of the principal investigators supervising the Waterloo iGEM team, commissioned Mark Soric, an associate of the lab, to make a turbidostat from scratch for use in the Ingalls lab.
+A turbidostat is a machine capable of maintaining the optical density, or turbidity, of a cell culture in liquid medium. Brian Ingalls, one of the principal investigators supervising the Waterloo iGEM team, commissioned Mark Soric, an associate of the lab, to make a turbidostat from scratch for use in the Ingalls lab. (To assign full credit, Matt Scott, another PI at Waterloo, also co-commissioned the machine.)
 
-Turbidostats are not widely available on the market, and at present there are few if any companies capable of tailor-making them for use in a lab. Mark Soric aimed to start a company with this goal, and was for a time stationed in the Velocity Garage incubator in Kitchener. At present, the first generation of his design is in the Ingalls lab, with the second generation design currently under construction.
+Turbidostats are not widely available on the market, and at present there are few if any companies capable of tailor-making them for specific projects. Mark Soric aimed to start a company with this goal, and was for a time stationed in the Velocity Garage incubator in Kitchener. At present, the first generation of his design is in the Ingalls lab, with the second generation design currently under construction. See below for a picture of the full machine.
 
 ![alt text](http://2018.igem.org/wiki/images/1/19/T--Waterloo--turbidostatEntire.jpg)
 
 The basic design has the following components:
-
-* A MatLab program run off of a personal computer (see image 1)
+* A MatLab program run off of a personal computer
 * An Arduino Mega connected to the computer
 * A printed circuit board (PCB) connected to the Arduino
-* A series of motors connected to the PCB
-* A collection of peristaltic pumps connected to the Arduino (see image 2)
+* A series of sample-stirring motors connected to the PCB
+* A collection of peristaltic pumps connected to the Arduino
 * A vacuum connected to the Arduino
 * A vacuum manifold connected to the PCB
-* A 3D-printed sample vial holder, which the PCB is housed in and the vacuum manifold is connected to
+* A 3D-printed sample vial holder, which the PCB is housed in and the vacuum manifold is bound to
+* A 37°C incubator that contains the PCB and its associated components
+
+The machine functions as follows. 40 mL sample vials are placed in the 3D printed holder, and filled with ~25 mL of sample. The motors connected to the PCB alternate between spinning and being still, aerating the sample when spinning and letting it “settle” otherwise; the sample vial has a magnetic stir bar in it to enable this stirring.
+
+The cells themselves do not settle down to the vial bottom when the motors are not stirring, but a certain “settling” of the turning liquid inside the vial is required before the machine can take an accurate turbidity measurement. The turbidostat can measure OD by shinning a red LED through the sample, and measuring the amount of light that passes through the sample via a photodiode opposite the LED. Before operation, a calibration curve of OD (as measured by a spectrometer) against photodiode reading is obtained. A minimum of 1 minute of stillness is required before an accurate OD measurement can be taken; prior to this, bubbles and swirling cells make the readings highly noisy.
+
+The sample vial itself, on top of containing ~25 mL of liquid sample and a stir bar, also has a lid attached to it with three ports. The first port goes to an air filter and allows oxygen into the container without allowing dust to pass through. The second port is a feed line, through which new liquid media can be delivered. The third is a waste line, through which old media can be removed via vacuum. See below for a video of a sample vial being stirred.
+
+<video width="100%" height="480" controls> 
+<source src="" type="video/mp4"> 
+</video>
+
+The second and third lines, together with the LED-photodiode combination, enable the turbidostat’s fundamental function of maintaining OD. When the OD passes a threshold, specified in the computer program and determined by the LED-photodiode pair, the following happens:
+1.	The peristaltic pump associated with the sample vial that passed the threshold is activated. The pump moves liquid media (usually ~5 mL) from a source vial kept outside the incubator through the feed line and into the sample vial.
+2.	The motor attached to the PCB that is associated with the vial of interest turns on. This spins the stir bar and mixes the new media with the media already in the vial.
+3.	The motor turns off and the vacuum activates. This removes a volume of media equivalent to that which was input in step 1 and completes the dilution process.
+
+See below for a demonstration of step 1 (one can also hear the vacuum activating in step 3 in the background):
+
+<video width="100%" height="480" controls> 
+<source src="" type="video/mp4"> 
+</video>
+
+Upon leaving the sample vial, the extra media passes first through an intermediate vial, and then a final waste vial. The intermediate vial is present in the event that the user wants to sample some of the most recent flushed contents, and the container is easily replaceable to allow multiple subsequent samples if so desired. The final waste vial is simply a collection point for any unwanted cells.
+
+Another interesting and very important aspect of the turbidostat is that it is able to subject vials to time varying amount of red and green light. There are red and green LEDs built into the PCB, and their intensities can be controlled via the turbidostat’s associated MatLab program. This allows manipulation of the optogenetic system relevant to this project while also maintaining cells at a constant OD to enable long experimental times required when dealing with experiments that necessarily take many hour of exponential growth to perform.
+
+See the image below for the GUI of the turbidostat’s MatLab program (designed primarily by Mark Soric) and its assorted ancilliary data.
+
+ ![alt text]( http://2018.igem.org/wiki/images/a/a2/T--Waterloo--turbidostatControlCenter.jpg)
