@@ -18,51 +18,10 @@ Notebook
 </div>
 </div>
 
-
-<script type="text/javascript" src="http://2017.igem.org/Team:Waterloo/notebook_tasks?action=raw&amp;ctype=text/javascript">
-</script>
- <script type="text/javascript" src="http://2017.igem.org/Team:Waterloo/days?action=raw&amp;ctype=text/javascript">
- </script>
-
 <div>
-<br>
-<br>
-  <div id="cal-heatmap"></div>
-
-    <p style="text-align:center;">Click on a day to view the work.</p>
-    <script type="text/javascript">
-      var month = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-      var cal = new CalHeatMap();
-      cal.init({
-              start: new Date(2017, 4),
-          data:days,
-          dataType: "json",
-          domain : "month",
-          subDomain : "day",
-          range : 6,
-          cellSize: 24,
-              subDomainTextFormat: "%d",
-              displayLegend: false,
-              onClick: function(date, nb) {
-              $("#onClick-placeholder").html(date.toDateString());
-              var message = ""
-              var key = month[date.getMonth()]+(date.getDate())
-              if (key in notes){
-              $.each(notes[key], function( index, value ) {
-                      message += "<li>"+value+"<\/li>";
-              });}
-              $("#notes-table").html(message);
-      }
-      });
-    </script>
+  <embed class="pdfobject" src="http://2018.igem.org/wiki/images/9/95/T--Waterloo--Notebook-Lab-Notebook.pdf" type="application/pdf" style="overflow: auto; width: 100%; height: 100%;">
 </div>
 
-<div class="content-main">
-  <h2 id="onClick-placeholder"></h2>
-  <ul id="notes-table"></ul>
-</div>
-
-{{!-- {{markdown markdown.notebook}} --}}
 </div>
 </html>
 {{template templates.footer mode}}
