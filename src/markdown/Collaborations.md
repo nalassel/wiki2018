@@ -49,3 +49,4 @@ Check out [other teams' postcards](http://2018.igem.org/Team:Duesseldorf/Collabo
 Having collaborated with the Duesseldorf iGEM team, we learned more about their project and realized that both our projects aim to solve the same problem - but in different ways! We reached out to them and asked them to help us make a video explaining the importance of co-cultures. This video aims to engage/inform the general public on co-cultures and serve as an introduction to our projects. 
 
 [Insert co-cultures video]
+ 
