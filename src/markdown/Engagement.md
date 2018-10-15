@@ -6,7 +6,7 @@ iGEM Waterloo has made passionate efforts in Public Education and Engagement! Sp
 
 ### What We Did  
 
-SHAD is a month-long entrepreneurship and enrichment program for high school students. It offers youth between the ages of 15-18 years old the opportunity to visit one of 17 Canadian Universities during the month of July, to learn about various STEAM (Science, Technology, Engineering, Arts, Math) subjects. It allows them to practice various skills as well as gain extraordinary experiences through different workshops every week. For more information on SHAD, please visit their [website] (https://www.shad.ca/About.htm).  
+SHAD is a month-long entrepreneurship and enrichment program for high school students. It offers youth between the ages of 15-18 years old the opportunity to visit one of 17 Canadian Universities during the month of July, to learn about various STEAM (Science, Technology, Engineering, Arts, Math) subjects. It allows them to practice various skills as well as gain extraordinary experiences through different workshops every week. For more information on SHAD, please visit their [website](https://www.shad.ca/About.htm).  
 
 For the past few years, iGEM Waterloo has been asked to host one of these workshops for a group of 12 SHADs attending SHAD Waterloo. We have been eager to share our knowledge and passion with these young leaders!  
 
