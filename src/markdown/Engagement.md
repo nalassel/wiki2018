@@ -85,3 +85,14 @@ Moving forward, the PnP team intends to focus on the discussion aspects of the p
 ![LitWorkshop2](http://parts.igem.org/wiki/images/2/2a/T--Waterloo-E%26E-LitWorkshop2.jpeg)
 ![LitWorkshop2](http://parts.igem.org/wiki/images/a/a7/T--Waterloo-E%26E-LitWorkshop3.jpeg)
 
+## Videos
+
+Below, we’ve included four educational videos which we’ve shared with audiences of all ages to help the public learn more about synthetic biology!
+
+### A-Z of Synthetic Biology (Parody Video)
+
+### Debunking Synbio Myths
+
+### Co-Cultures
+
+
