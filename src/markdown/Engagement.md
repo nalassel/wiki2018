@@ -1,8 +1,12 @@
-# The SHAD Workshop  
+# Public Education and Engagement
+
+iGEM Waterloo has made passionate efforts in Public Education and Engagement! Specifically, we’ve hosted a hands-on synthetic biology workshop for SHAD high school students, we’ve hosted a Literacy Workshop in which we taught students how to read and understand technical papers, and we’ve created several videos ranging from general public education to more technical educational videos to promote synthetic biology and provide public education. To learn more, read on!
+
+## The SHAD Workshop  
 
 ### What We Did  
 
-SHAD is a month-long entrepreneurship and enrichment program for high school students. It offers youth between the ages of 15-18 years old the opportunity to visit one of 17 Canadian Universities during the month of July, to learn about various STEAM (Science, Technology, Engineering, Arts, Math) subjects. It allows them to practice various skills as well as gain extraordinary experiences through different workshops every week. For more information on SHAD, please visit their [website] (https://www.shad.ca/About.htm).  
+SHAD is a month-long entrepreneurship and enrichment program for high school students. It offers youth between the ages of 15-18 years old the opportunity to visit one of 17 Canadian Universities during the month of July, to learn about various STEAM (Science, Technology, Engineering, Arts, Math) subjects. It allows them to practice various skills as well as gain extraordinary experiences through different workshops every week. For more information on SHAD, please visit their [website](https://www.shad.ca/About.htm).  
 
 For the past few years, iGEM Waterloo has been asked to host one of these workshops for a group of 12 SHADs attending SHAD Waterloo. We have been eager to share our knowledge and passion with these young leaders!  
 
@@ -46,7 +50,7 @@ Presentations also included discussion about ethical dilemmas - some of which ha
 |  ![SHAD7](http://parts.igem.org/wiki/images/a/ad/T--Waterloo-E%26E-SHAD7.jpeg)  |  ![SHAD8](http://parts.igem.org/wiki/images/1/1f/T--Waterloo-E%26E-SHAD8.jpeg)  |  ![SHAD9](http://parts.igem.org/wiki/images/2/20/T--Waterloo-E%26E-SHAD9.jpeg)  |
 | ![SHAD10](http://parts.igem.org/wiki/images/1/1a/T--Waterloo-E%26E-SHAD10.jpeg) | ![SHAD11](http://parts.igem.org/wiki/images/4/48/T--Waterloo-E%26E-SHAD11.jpeg) | ![SHAD12](http://parts.igem.org/wiki/images/5/51/T--Waterloo-E%26E-SHAD12.jpeg) |
 
-# The Literacy Workshop 
+## The Literacy Workshop 
 
 ### Introduction  
 The Literacy workshop was developed with the premise of improving scientific literacy required for work in research. This workshop was an opportunity for University of Waterloo undergraduate students to better understand how to read through and dissect academic literature. iGEM project development, experimental protocol, and project applications are all based on scientific literature and accurate comprehension of academic writing. This workshop was a platform to teach the undergraduate community about knowledge translation and a way to acquire the technical skills utilized by iGEM team members in relation to effective and efficient research.  
@@ -80,4 +84,15 @@ Moving forward, the PnP team intends to focus on the discussion aspects of the p
 
 ![LitWorkshop2](http://parts.igem.org/wiki/images/2/2a/T--Waterloo-E%26E-LitWorkshop2.jpeg)
 ![LitWorkshop2](http://parts.igem.org/wiki/images/a/a7/T--Waterloo-E%26E-LitWorkshop3.jpeg)
+
+## Videos
+
+Below, we’ve included four educational videos which we’ve shared with audiences of all ages to help the public learn more about synthetic biology!
+
+### A-Z of Synthetic Biology (Parody Video)
+
+### Debunking Synbio Myths
+
+### Co-Cultures
+
 
