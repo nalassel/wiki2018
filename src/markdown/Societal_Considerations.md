@@ -136,8 +136,6 @@ _Figure 2. Space filling model of folded Insulin protein_
 
 ## Scale-Up Challenges
 
-![](http://2018.igem.org/wiki/images/8/87/T--Waterloo--SC-scale.png)
-
 &nbsp;&nbsp;&nbsp;&nbsp;The current system that exists poses challenges for scale-up in the future. Maintaining the ratio of the co-culture is effective, but requires a sample from the turbidostat to be run on a flow cytometer to observe the current ratio, and make adjustments to the light system as necessary. The frequency of these observations is dependent on how stable you want the co-culture to be, however each iteration requires about 15 mins. This poses a challenge for scaling up this process because there is no easy way to increase the frequency or speed of these observations and thus requires someone to monitor the system over long periods of time. To address the scalability of our system, we came up with an idea that would eliminate the need for someone to monitor the co-culture and that can make continuous observations (however, the automated system was not implemented this year). 
 
 ### The Proposed Solution
