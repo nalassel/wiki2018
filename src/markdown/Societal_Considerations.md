@@ -1,63 +1,147 @@
-This year, our Human Practices work included a combination of new project ideas, as well as carefully refined projects from previous seasons. We had a strong focus on consulting experts and our work is grouped into four major categories: Societal Considerations, Communication and Public Bias, Public Engagement, and Safety. 
+# Societal Considerations
+
+## Expert Consultation
+
+&nbsp;&nbsp;&nbsp;&nbsp;At the University of Waterloo, we are fortunate to have strong connections with many of the professors who are always supportive of our work. This year, we reached out to professors in the Department of Biology who work in a variety of fields to gather different perspectives on our project. In addition, we were fortunate enough to have had the opportunity to speak to a representative from a biotech company in Canada. The sections below summarize our conversations throughout the year.
+ 
+
+#### Dr. Christine Dupont
+
+&nbsp;&nbsp;&nbsp;&nbsp;Dr. Dupont is a continuing lecturer at the University of Waterloo whose teaching focuses on microbiology and molecular biology. In our interview, we asked Dr. Dupont about her ideas for how to design the co-culture system. She proposed that we could use two dialysis bags in a medium such that the two populations can exchange material but will not affect each other’s growth. Although this idea was not use in our actual experiments, it helped inspire the final experiments (see Design Page). Finally, Dr.Dupont also provided us with an industrial application: using co-cultures to develop ratios of yogurt flavours. This application is further discussed in the Project Application below.
 
 
-## Societal Considerations
+#### Dr. Valerie Ward
 
-To better understand the societal impact of our project, it was important for us to explore our project in different contexts and gather opinions from our community. We began with interviews from several professors at the University of Waterloo and industry representatives, who provided us with insightful ideas about the real-world challenges and applications of our project. By combining their responses with our own imagination and research, we developed a project analysis and proposed a series of diverse potential applications of our system. Finally, we took a look at the barriers that would prevent a potential scale-up of our project and proposed a solution to overcome those barriers.  Please read more on our [Societal Considerations](http://2018.igem.org/Team:Waterloo/Societal_Considerations) page!
-
-
-
-## Communication and Public Bias
-
-The Implicit Association Test, or IAT, is a psychological tool for uncovering unconscious, or implicit, biases toward or against a category, like biotechnology.  For us at Waterloo iGEM, this can be a tool for learning how the people we reach the most, through social media and events, as well as our greater community, feel about synthetic biology-associated words. As this is our second time using the test, we’ve changed some things after what we learned last year!  Please continue to our [Communication](http://2018.igem.org/Team:Waterloo/Commnunication) page to learn more about our revamping, our results, and to try the IAT (insert new link) for yourself!
+&nbsp;&nbsp;&nbsp;&nbsp;Dr. Ward is an assistant professor at the University of Waterloo whose work includes the development of new bioprocesses for applications in biosource engineering and biorefining. The use of stable co-cultures has many promising applications in bioprocessing, so we met with Dr. Ward in the early stages of our project development. In our meeting, we discussed various applications of controlled co-cultures and brainstormed how we could design our project to cater to these applications. One of the main takeaways from the interview was the idea of creating a co-culture of E.coli and S.cerevisiae. Using these two organisms in bioprocessing has many advantages over using just one or the other, as they each provide different environments that are more suitable for different parts of the pathway. 
 
 
-## Public Engagement and Education
+#### Industry Representative
 
-As always, our team dedicates a large portion of our season to interacting with students and the community regarding both our annual project as well as providing tools and resources to better understand the field of science (with a focus on synthetic biology, of course!). Between synbio workshops for high school students, literacy workshops for university students, and presenting to professors and industry leaders at a conference, we are proud to have become a team that external groups reach out to to inspire new and upcoming scientists. To read all about our engagement and education work this year, visit our [Public Engagement and Education] (http://2018.igem.org/Team:Waterloo/Engagement) page!
-
-## Safety
-
-Waterloo iGEM has ensured that all safety measures have been followed and improved upon from previous years. From multiple training modules being completed by each lab member to the implementation of full chemical inventory and eyewash maintenance systems, the lab was able to be productive and organized while maintaining a high level of safety. The project was designed with safety in mind as well, in order to reduce risks. To read about the full work done regarding safety for the Waterloo iGEM team, please visit the [Safety](http://2018.igem.org/Team:Waterloo/Safety) page!
+&nbsp;&nbsp;&nbsp;&nbsp;We also reached out to a biotech company in Canada to receive an industrial perspective on the uses of our project. After explaining our project to the representative, he gave us advice on where to find resources to help develop our project. Following that discussion, we talked about applications of optogenetic systems, co-culture systems, and finally applications where the two ideas are combined. A notable application that was proposed was the use of co-cultures to study fungal infections. Even in vitro, it is difficult to study the function of the fungus, so our optogenetic system can be used to slow down the growth of the fungus. This idea was further explore in the Project Application.
 
 
-## Integrated Human Practices
+## Project Applications 
+
+![](http://2018.igem.org/wiki/images/5/5c/T--Waterloo--SC-apps.png)
+
+&nbsp;&nbsp;&nbsp;&nbsp;The use of optogenetics to maintain a stable and tunable co-culture is a very powerful tool that opens up many doors in both industry and research. To explore some of these doors, we looked to industry leaders and professionals from different fields of biology for inspiration on how they envisioned the world (including their own work) could benefit from the use of a controllable co-culture system. By combining our own imagination with their ideas, our team has outlined a series of project applications that can help propel various aspects of industry and research.  
+
+### Application: Production of Functionalized Taxanes for Chemotherapy
+
+&nbsp;&nbsp;&nbsp;&nbsp;Taxane therapy is a form of chemotherapy that has dramatically increased the survival rate of breast cancer patients over the last few decades. This drug is able to inhibit mitosis and interferes with microtubules in a cell, which has been proven to be an effective treatment for cancer cells. The production of taxane has a complex pathway, however, by using a co-culture of _E. coli_ and _S. cerevisiae_. Their unique properties and functions can be exploited to create optimal environments for different steps of the pathway. _E. coli_, known for its high growth rate, can be engineered to produce large amounts of taxadiene, which is one of the intermediate products in the production of taxanes. _S. cerevisiae_, known for having advanced protein expression machinery, is a more suitable host for expressing cytochrome P450, which is an enzyme that functionalizes taxadiene through the catalysis of multiple oxygenation reactions. Currently, the co-cultures are maintained by using a media that only contains xylose as a carbon source, which is used by _E.coli_ and not _S.cerevisiae_. As xylose is metabolized by _E.coli_, it produces acetate which perturbs the growth of _E.coli_, but acts as the carbon source for _S. cerevisiae_. This interdependence between the two organisms limits the ratios that the two exist at, which directly affects the proportions of intermediates and products produced. The use of our optogenetic system provides a solution to this issue, as it gives dynamic control over the ratios between the two bacterium and can maximize the efficiency of this process. In addition, the dynamic capabilities of our system allows for quick and simple correction of population levels when one step is either falling behind or speeding up. 
+
+![](http://2018.igem.org/wiki/images/6/61/T--Waterloo--sc-diagram.png)
+
+_Figure 1. A mutualistic E. coli – S. cerevisiae consortium for production of oxygenated taxanes. 
+Adapted from “Distributing metabolic pathway among a microbial consortium enhances production of natural products,” by K. Zhou, K. Qiao and S. Stephanopoulos, 2015, Nature Biotechnology, 33, 377-383. Copyright 2015 by Nature America Inc_
+
+**References**
+
+1. Frye, D., K. (2006). Taxane Chemotherapy - Advances in Treatment for Breast Cancer. _US Oncological Disease, 1(1)_, 40-41. doi: 10.17925/OHR.2006.00.01.40
+2. _NCI Dictionary of Cancer Terms_. (2018). Retrieved from https://www.cancer.gov/publications/dictionaries/cancer-terms/def/taxane
+3. Zhou, K. Qiao, K. Edgar, S. Stephanopoulos, G. (2015). Distributing metabolic pathway among a microbial consortium enhances production of natural products. _Nature Biotechnology_, 33, 377-383. 
 
 
-As a team competing in the New Application track, it is often difficult to design a project that caters to stakeholders in one specific area or sector. For this reason, our team felt that it would be more impactful to design a co-culture system that provides a foundation that people in all areas can easily build upon. This goal helped drive our work with Integrated Human Practices, and resulted in the design of a multi-purpose tool that gives industries and researchers alike an opportunity to expand on our work into their own spaces. 
+### Application: Industrial Hydrogen Production
+&nbsp;&nbsp;&nbsp;&nbsp;Hydrogen could be the clean energy source that powers the future. The first commercial hydrogen-powered trains have just begun to work in Germany, and liquid hydrogen is often used as a propellant for rockets. Driving production costs down could help realize this future, and co-cultures could help us attain lower costs. Multiple studies have shown that hydrogen can be produced using renewable resources by microbes, and co-cultures often dramatically increase production rates across a multitude of microbial pairings. Like any co-culture system, maintaining a balance between populations is incredibly difficult, and the implementation of our system could help this industry overcome a major hurdle in the attempt to scale. This application may be restricted if innovation of new products that demand hydrogen does not occur, but even the existing expanding market is reason enough to drive production costs down. This would be far from the first industrial process that microbes simply do better than we ever can.
 
-From our consultations with professors and experts ([read about them here](http://2018.igem.org/Team:Waterloo/Societal_Considerations)), we gathered different perspectives and ideas which we integrated into the creation of our design milestones. These are documented below.
-
-#Human Practices Home Page
-
-This year, our Human Practices work included a combination of new project ideas, as well as carefully refined projects from previous seasons. We had a strong focus on consulting experts and our work is grouped into four major categories: Societal Considerations, Communication and Public Bias, Public Engagement, and Safety. 
-
-
-##Societal Considerations
-
-To better understand the societal impact of our project, it was important for us to explore our project in different contexts and gather opinions from our community. We began with interviews from several professors at the University of Waterloo and industry representatives, who provided us with insightful ideas about the real-world challenges and applications of our project. By combining their responses with our own imagination and research, we developed a project analysis and proposed a series of diverse potential applications of our system. Finally, we took a look at the barriers that would prevent a potential scale-up of our project and proposed a solution to overcome those barriers.  Please read more on our [Societal Considerations](http://2018.igem.org/Team:Waterloo/Societal_Considerations) page!
+**References**
+ 
+1. Bader, J., Mast-Gerlach, E., Popovic, M. K., Bajpai, R., Stahl, U. (2010). Relevance of microbial coculture fermentation in biotechnology. Journal of _Applied Microbiology_, 109(2), 371-387. doi:10.1111/j.1365-2672.2009.04659.x
+2. Chow, D. (2018). _Germany’s new hydrogen-powered trains point the way to sustainable rail travel_. Retrieved from https://www.nbcnews.com/mach/science/germany-s-new-hydrogen-powered-trains-point-way-sustainable-rail-ncna912086
+3. Dawson, V. P., & Bowles, M. D. (2004). _Taming Liqui Hydrogen: The Centaur Upper Stage Rocket_ 1958-2002. Washington: NASA SP-2004-4230
 
 
+### Application: Customizable Bioplastics 
+&nbsp;&nbsp;&nbsp;&nbsp;The world’s plastic problem is reaching new levels of unsustainability and pollution. Bioplastics, plastics made from biodegradable materials that can break down on their own, could be a possible solution. One way to create bioplastics is by using polyhydroxyalkanoates (PHAs), storage polymers used by a variety of microorganisms. Since these are a part of a microorganism’s natural synthesis and degradation cycles, these plastics should naturally be broken down. With multiple microorganisms each producing their own PHAs, polymers could be created with different subunits. By controlling the ratios of the organisms producing the PHAs, we could control the ratios of the subunits, allowing for greater variability—melting temperature, glass transition temperature, flexibility, and more! This is where our project comes in: controlling the ratios of the organisms allows for control of the PHA ratios, which can help control the characteristics of the plastic polymerized. 
 
-##Communication and Public Bias
-
-The Implicit Association Test, or IAT, is a psychological tool for uncovering unconscious, or implicit, biases toward or against a category, like biotechnology.  For us at Waterloo iGEM, this can be a tool for learning how the people we reach the most, through social media and events, as well as our greater community, feel about synthetic biology-associated words. As this is our second time using the test, we’ve changed some things after what we learned last year!  Please continue to our [Communication](http://2018.igem.org/Team:Waterloo/Commnunication) page to learn more about our revamping, our results, and to try the IAT (insert new link) for yourself!
-
-
-##Public Engagement and Education
-
-As always, our team dedicates a large portion of our season to interacting with students and the community regarding both our annual project as well as providing tools and resources to better understand the field of science (with a focus on synthetic biology, of course!). Between synbio workshops for high school students, literacy workshops for university students, and presenting to professors and industry leaders at a conference, we are proud to have become a team that external groups reach out to to inspire new and upcoming scientists. To read all about our engagement and education work this year, visit our [Public Engagement and Education] (http://2018.igem.org/Team:Waterloo/Engagement) page!
-
-##Safety
-
-Waterloo iGEM has ensured that all safety measures have been followed and improved upon from previous years. From multiple training modules being completed by each lab member to the implementation of full chemical inventory and eyewash maintenance systems, the lab was able to be productive and organized while maintaining a high level of safety. The project was designed with safety in mind as well, in order to reduce risks. To read about the full work done regarding safety for the Waterloo iGEM team, please visit the [Safety](http://2018.igem.org/Team:Waterloo/Safety) page!
+**References**
+ 
+1. Sathya, A. B., Sivasubramanian, V., Santhiagu, A., Sebastian, C., Sivashankar, R. (2018). Production of Polyhydroxyalkanoates from Renewable Sources Using Bacteria. _Journal of Polymers and the Environment, 26(9)_, 3995-4012. doi:10.1007/s10924-018-1259-7
+2. Wessner, D. R., Dupont, C., Charles, T. (2017). _Microbiology_. New Jersey: John Wiley and Sons.
 
 
-##Integrated Human Practices
+### Application: Optogenetic Control of Insulin Secretion Pathways 
+&nbsp;&nbsp;&nbsp;&nbsp;Cases of type 1 and type 2 diabetes have consistently been rising since the 1980s in both developed and developing countries, with reports estimating nearly 422 million people globally living with the disease. New technologies have made significant advances in the way we treat this disease, and optogenetic control with regards to cell growth is one of the most promising of these applications. Optogenetic control is a powerful in relation to the treatment of chronic diseases (such as diabetes) due to its non-invasive and targeted approach, allowing for the selective treatment of a given type of cell or region within the body. Take the secretion of insulin in pancreatic β-cells, which is a process controlled by a variety of intracellular components. Of these components, cyclic AMP (cAMP) is the most important due to its regulatory activity. With the implementation of photoactivatable adenylyl cyclase (PAC) being used to mimic the effects of cAMP along the insulin secretion pathway, a team of scientists were able to effectively promote the release of insulin levels comparable to that of secretagogues treated β-cells via the use of an inducible optogenetic control system. Where the iGEM project comes in is through the creation of a system that would allow for the control of multiple bacterial cultures at once using an optogenetic system. Being able to control and induce multiple cellular regions and cultures with a system would ultimately be the best way of controlling something like insulin secretion in the case of diabetes. The issue lies in creating an automated control system to self regulate cell growth and protein production levels without having to manually uptick or decrease the system, something the Waterloo iGEM team is directly testing and refining. 
 
 
-As a team competing in the New Application track, it is often difficult to design a project that caters to stakeholders in one specific area or sector. For this reason, our team felt that it would be more impactful to design a co-culture system that provides a foundation that people in all areas can easily build upon. This goal helped drive our work with Integrated Human Practices, and resulted in the design of a multi-purpose tool that gives industries and researchers alike an opportunity to expand on our work into their own spaces. 
 
-From our consultations with professors and experts ([read about them here](http://2018.igem.org/Team:Waterloo/Societal_Considerations)), we gathered different perspectives and ideas which we integrated into the creation of our design milestones. These are documented below.
 
-<table style="width:100%" border="1"><tr><th><b></b>Design Milestones</th><th>Expanation</th></th></tr><tr><td align="center">E.coli and E.coli</td><td align="center">The simplest organism for us to engineer and used as a proof of concept.</td></tr><tr><td align="center">E.Coli and S.cerevisiae</td><td align="center">Using different organisms opens up the door to more effective bioprocessing, as one may be more suitable for certain pathways than the other. </td></tr><tr><td align="center">Mammalian - Mammalian</td><td align="center">Demonstrating that we can create and maintain specific ratios between mammalian cells has lots of potential for research in tissue engineering and synthetic meat. </td></tr><tr><td align="center">Mammalian - Fungal</td><td align="center">Currently, fungal infections are very difficult to study in vitro, so the use of optogenetics to slow the growth of the fungi would improve the abilities of researchers to understand the reaction of fungi. </td></tr></table>
+![](http://2018.igem.org/wiki/images/0/06/T--Waterloo--sc-protein.png)
+
+
+
+_Figure 2. Space filling model of folded Insulin protein_
+
+
+**References**
+
+1. Milias-Argeitis, A., Rullan, M., Aoki, S. K., Buchmann, P., Khammash, M. (2016). _Nature Communications. 7:12546_. doi:10.1038/ncomms12546.
+2. Zhang, F., Tzanakakis, E. S. (2017). Optogenetic regulation of insulin secretion in pancreatic ß-cells. _Scientific Reports_, 7:9357. doi:10.1038/s41598-017-09937-0.
+
+
+
+### Application: Tissue Engineering 
+&nbsp;&nbsp;&nbsp;&nbsp;Tissue engineering utilizes a combination of cells and appropriate biochemical and physicochemical factors to regenerate or recover biological tissues. The formation, upkeep, and restoration of biological tissues rely on the interaction of cells with other cell types and their extracellular matrix. To successfully develop biological tissue, it is essential that natural conditions of the cellular environment are as accurate as possible; this is where co-cultures play an integral role in application development. In a co-culture, there are two or more cell types that are brought together within the same culture. The communication and interaction between these cell types enable growth and interdependence within the biological tissue. This is vital for medical research and applications in medicine, as accurate interaction and makeup of cells in the tissue is essential for the normal development, homeostasis, and repair reaction of engineered tissue. Tissue engineering applications are used for tissue repair solutions like surgeries, medical devices, and transplants. The opportunity for market growth is increasing as there are increasing cases of chronic diseases, road accidents, and trauma injuries which act as external environmental forces to push growth in market for development of tissue engineering solutions. Furthermore, technological advancement in 3D tissue engineering like 3D bio-printers will drive further research and opportunity.
+
+**References**
+
+1. Bogdanowicz, D. R., Lu, H. H. (2014). Studying cell-cell communication in co-culture. _Biotechnology Journal, 8(4)_, 395-396. doi:10.1002/biot.201300054 
+2. Hendriks, J., Riesle, J., van Blitterswijk, C. A. (2007) Co-culture in cartilage tissue engineering. _Journal of Tissue Engineering and Regenerative Medicine,1_, 170-178. doi:10.1002/term.19
+3. _Tissue Engineering Market Size, Share & Trends Analysis Report._ (2018). Retrieved from https://www.grandviewresearch.com/industry-analysis/tissue-engineering-and-regeneration-industry
+
+
+
+### Make It Taste Better: Yogurt Application 
+&nbsp;&nbsp;&nbsp;&nbsp;Yogurt made its first appearance in 1989 and is promoted to be high in vitamins and calcium. In recent years, yogurt has become one of the most important ingredients to maintain a healthy diet, lifestyle, and balance work life. Optimizing yogurt consumption is an increasing need in an average household and the demand for different yogurt flavouring is slowly emerging. Further research in food and nutrition have found crucial microbes featured in many processes of yogurt production that will demonstrate health benefits including, but not limited to, lactose intolerance, food allergy, Crohn’s disease, and other acute infections in infants and children. With the use of optogenetic co-cultures, this system will allow us to manage the growth of two populations and in turn will give us the opportunity to control different yogurt flavours depending on the different stages of growth, acid contents, and volatile compounds during fermentation. Furthermore, with the ability to control the growth system of different populations, we will be able to identify and study cell-to-cell interactions and influence of probiotic bacteria, including _Lactobacillus acidophilus, Lactobacillus plantarum, Lactobacillus rhamnosus,_ and _Lactobacillus casei_, that might be present. Being able to utilize co-cultures to further research and integrate findings into the yogurt industry to enhance quality of food will be a stepping stone into improving community health. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;The remaining question is, if one cell goes into apoptosis, how can we prevent the impact on the other cell? Will these yogurt products be affordable enough for consumers? 
+
+&nbsp;&nbsp;&nbsp;&nbsp;Since co-cultures are natural interactions in nature between cells, this should not be considered a GMO product. 
+
+**References**
+
+1. Evvie, S. E., Huo, G., Igene, J. O., Bian, X. (2017). Some current application, limitations and future perspectives of lactic acid bacteria as probiotics. _Food Nutrition Research. 61(1)_: 1318034. doi:10.1080/16546628.2017.1318034 
+2. German, J. B. (2014). The future of yogurt: scientific and regulatory needs. _The American Journal of Clinical Nutrition. 99(5)_: 1271-1278. doi:10.3945/ajcn.113.076844
+3. Goers, L., Freemont, P., Polizzi, K. M. (2014). Co-culture systems and technologies: taking synthetic biology to the next level. _Journal of The Royal Society Interface, 11(96)_:20140065. doi:10.1098/rsif.2014.0065
+4. Possa, G., Corrente, J. E., Fisberg, M. (2017). Yogurt consumption is associated with a better lifestyle in Brazilian population. _BMC Nutrition, 3:29_. doi:10.1186/s40795-017-0145-3
+5. Tian, H. Shen, Y. Yu, H. He, Y. Chen, C. (2017). Effects of 4 Probiotic Strains in Coculture with Traditional Starters on the Flavor Profile of Yogurt. _Journal of Food Science, 82(7)_:1693-1701. doi: 10.1111/1750-3841.13779.
+
+
+### Application: Wastewater Treatment Methods
+&nbsp;&nbsp;&nbsp;&nbsp;Wastewater treatment is a growing concern for municipalities across the globe. This multistage process is resource intensive and effective methods are in demand as water consumption increases. Biological treatment of wastewater is in use today and largely targets organic compounds. Research shows clear improvements with the use of co-cultures. For example, a microalgae and bacteria co-culture requires lower inputs of oxygen and other chemicals to undergo the denitrification process. A potential challenge arises due to the unpredictable content of wastewater: the co-culture treatment stage must be included after enough processing has occured to reasonably know the contents of the wastewater. It is essential that population ratios are maintained between organisms; if a step in the treatment process were to fail, contamination of further stages and the environment may occur, defeating the purpose of wastewater treatment. Our project provides a stable yet adjustable ratio of organisms, which could enable further research and development of wastewater treatment co-cultures and ultimately improve treatment processes and human environmental impact. 
+
+**References**
+
+1. Ali, M. E. M., Abd El-Aty, A. M., Badawy, M. I., Ali, R. K. (2018). Removal of pharmaceuticals pollutants from synthetic wastewater using chemically modified biomass of green alga Scenedesmus obliquus. _Ecotoxicology and Environmental Safety, 151_: 144-152. doi: 10.1016/j.ecoenv.2018.01.012
+2. Cydzik-Kwiatkowska, A., Zielinska, M. (2016). Bacterial communities in full-scale wastewater treatment systems. _World Journal of Microbiology and Biotechnology, 32:66_. doi:10.1007/s11274-016-2012-9
+1. Hu, Z., Qi, Y., Zhao, L., Chen, G. (2018). Interaction between microalgae and microorganisms for wastewater remediation and biofuel production. _Waste and Biomass Valorization_. doi:10.1007/s12649-018-0325-7
+
+###Fungal Co-cultures to Study Immunoreactions
+
+&nbsp;&nbsp;&nbsp;&nbsp;The immune system employs many different types of mechanisms of defence against fungal infections that range from innate immunity to adaptive mechanisms that are induced during time of infection and disease. Fungal species are a source of many bioactive metabolites and have a high chemo-diversity, with almost 42% of molecular bioactive products, where many are used as antifungals or antibiotics, being generated by fungal species. Specific strategies encompassing inducing pathways that are controlled by silent genes need to be utilized to study at production of bioactive metabolites. Co-culturing fungi involves cell-to-cell interaction that help promote these mechanisms and pathways. This method allows for inter-microbial competition and communication that enables the triggering of these unique pathways and thereby production of metabolites through the activation of certain silent genes. This application is useful for drug discovery and informs researchers on how to manipulate immune response to tackle fungal infections. Antifungal compounds found through inducing these mechanisms could inform therapeutic solutions to current health problems and diseases involving pathogens.  
+
+**References**
+
+1. Serrano, R., Gonzalez-Menedez, V., Rodriguez, L., Martin, J., Tormo, J., Genilloud, O. (2017). Co-culturing of Fungal Strains Against Botrytis cinerea as a Model for the Induction of Chemical Diversity and Therapeutic Agents. Frontiers in Microbiology, 8:649. doi:10.3389/fmicb.2017.00649
+2. Azzollini, A., Boggia, L., Boccard, J., Sgorbini, B., Lecoultre, N., Allard, P.-M., … Wolfender, J.-L. (2018). Dynamics of Metabolite Induction in Fungal Co-cultures by Metabolomics at Both Volatile and Non-volatile Levels. Frontiers in Microbiology, 9, 72. http://doi.org/10.3389/fmicb.2018.00072
+3. Blanco, J. L., Garcia, M. E. (2008). Immune response to fungal infections. Veterinary Immunology and Immunopathology, 125(1-2):47-70. doi: 10.1016/j.vetimm.2008.04.020.
+
+
+
+### Applications Conclusion
+&nbsp;&nbsp;&nbsp;&nbsp;In summary, the controllable co-culture system that we have developed has a broad range of impactful solutions in industry and research. Although we have only listed a few applications of our project, any system that requires the use of a stable ratio of two or more bacterium for research or process optimization can benefit from our work. In the future, groups interested in expanding on or implementing our co-culture system will be able to pursue feasible paths, as outlined above. 
+
+
+
+## Scale-Up Challenges
+
+![](http://2018.igem.org/wiki/images/8/87/T--Waterloo--SC-scale.png)
+
+&nbsp;&nbsp;&nbsp;&nbsp;The current system that exists poses challenges for scale-up in the future. Maintaining the ratio of the co-culture is effective, but requires a sample from the turbidostat to be run on a flow cytometer to observe the current ratio, and make adjustments to the light system as necessary. The frequency of these observations is dependent on how stable you want the co-culture to be, however each iteration requires about 15 mins. This poses a challenge for scaling up this process because there is no easy way to increase the frequency or speed of these observations and thus requires someone to monitor the system over long periods of time. To address the scalability of our system, we came up with an idea that would eliminate the need for someone to monitor the co-culture and that can make continuous observations (however, the automated system was not implemented this year). 
+
+### The Proposed Solution
+
+&nbsp;&nbsp;&nbsp;&nbsp;The thought process was simple; why have someone monitor the system when a computer can do it? And if a computer can monitor it, why not have it make observations every minute, or every second? Expanding on this idea, we got as far as to designing an improved system that could continuously monitor the ratios of the co-culture and automatically adjust the lights based on each observation at any arbitrary frequency. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;Had time and resources allowed, we would have explored the implementation of ejecting a sample from the turbidostat into a fluorescent microscope, which could be used to measure the ratio of the co-culture. Following that, we would have the data be read by a computer that is used to control the turbidostat, such as a Raspberry Pi. Using a program that can control the lights, we could create a feedback system that loops between reading the culture ratio and then adjusting the light. In addition, you would be able to easily determine how frequently the system would be observed and even set the desired ratio of the co-culture (40-60, 30-70, etc…). 
