@@ -28,9 +28,9 @@ The sample vial itself, on top of containing ~25 mL of liquid sample and a stir 
 </video>
  
 The second and third lines, together with the LED-photodiode combination, enable the turbidostat’s fundamental function of maintaining OD. When the OD passes a threshold, specified in the computer program and determined by the LED-photodiode pair, the following happens:
-1.     The peristaltic pump associated with the sample vial that passed the threshold is activated. The pump moves liquid media (usually ~5 mL) from a source vial kept outside the incubator through the feed line and into the sample vial.
-2.     The motor attached to the PCB that is associated with the vial of interest turns on. This spins the stir bar and mixes the new media with the media already in the vial.
-3.     The motor turns off and the vacuum activates. This removes a volume of media equivalent to that which was input in step 1 and completes the dilution process.
+1. The peristaltic pump associated with the sample vial that passed the threshold is activated. The pump moves liquid media (usually ~5 mL) from a source vial kept outside the incubator through the feed line and into the sample vial.
+2. The motor attached to the PCB that is associated with the vial of interest turns on. This spins the stir bar and mixes the new media with the media already in the vial.
+3. The motor turns off and the vacuum activates. This removes a volume of media equivalent to that which was input in step 1 and completes the dilution process.
  
 See below for a demonstration of step 1 (one can also hear the vacuum activating in step 3 in the background):
  
