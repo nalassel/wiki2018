@@ -95,6 +95,8 @@ Below, we’ve included four educational videos which we’ve shared with audien
 
 ### Debunking Synbio Myths
 
+![Debunking](http://2018.igem.org/wiki/images/c/c7/T--Waterloo--E%26E-DebunkingMyths.mp4)
+
 ### Co-Cultures
 
 
