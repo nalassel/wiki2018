@@ -21,20 +21,21 @@ The cells themselves do not settle down to the vial bottom when the motors are n
 
 The sample vial itself, on top of containing ~25 mL of liquid sample and a stir bar, also has a lid attached to it with three ports. The first port goes to an air filter and allows oxygen into the container without allowing dust to pass through. The second port is a feed line, through which new liquid media can be delivered. The third is a waste line, through which old media can be removed via vacuum. See below for a video of a sample vial being stirred.
 
-<video width="100%" height="480" controls> 
-<source src="" type="video/mp4"> 
+<video width="100%" height="480" controls>
+<source src="http://2018.igem.org/wiki/images/f/ff/T--Waterloo--turbidostatInterior.mov" type="video/mp4">
 </video>
-
+ 
 The second and third lines, together with the LED-photodiode combination, enable the turbidostat’s fundamental function of maintaining OD. When the OD passes a threshold, specified in the computer program and determined by the LED-photodiode pair, the following happens:
-1.	The peristaltic pump associated with the sample vial that passed the threshold is activated. The pump moves liquid media (usually ~5 mL) from a source vial kept outside the incubator through the feed line and into the sample vial.
-2.	The motor attached to the PCB that is associated with the vial of interest turns on. This spins the stir bar and mixes the new media with the media already in the vial.
-3.	The motor turns off and the vacuum activates. This removes a volume of media equivalent to that which was input in step 1 and completes the dilution process.
-
+1. The peristaltic pump associated with the sample vial that passed the threshold is activated. The pump moves liquid media (usually ~5 mL) from a source vial kept outside the incubator through the feed line and into the sample vial.
+2. The motor attached to the PCB that is associated with the vial of interest turns on. This spins the stir bar and mixes the new media with the media already in the vial.
+3. The motor turns off and the vacuum activates. This removes a volume of media equivalent to that which was input in step 1 and completes the dilution process.
+ 
 See below for a demonstration of step 1 (one can also hear the vacuum activating in step 3 in the background):
-
-<video width="100%" height="480" controls> 
-<source src="" type="video/mp4"> 
+ 
+<video width="100%" height="480" controls>
+<source src="http://2018.igem.org/wiki/images/f/f3/T--Waterloo--turbidostatPeristalticPump.mov" type="video/mp4">
 </video>
+
 
 Upon leaving the sample vial, the extra media passes first through an intermediate vial, and then a final waste vial. The intermediate vial is present in the event that the user wants to sample some of the most recent flushed contents, and the container is easily replaceable to allow multiple subsequent samples if so desired. The final waste vial is simply a collection point for any unwanted cells.
 
