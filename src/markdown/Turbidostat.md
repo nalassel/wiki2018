@@ -1,5 +1,3 @@
-# Turbidostat
-
 A turbidostat is a machine capable of maintaining the optical density, or turbidity, of a cell culture in liquid medium. Brian Ingalls, one of the principal investigators supervising the Waterloo iGEM team, commissioned Mark Soric, an associate of the lab, to make a turbidostat from scratch for use in the Ingalls lab. (To assign full credit, Matt Scott, another PI at Waterloo, also co-commissioned the machine.)
 
 Turbidostats are not widely available on the market, and at present there are few if any companies capable of tailor-making them for specific projects. Mark Soric aimed to start a company with this goal, and was for a time stationed in the Velocity Garage incubator in Kitchener. At present, the first generation of his design is in the Ingalls lab, with the second generation design currently under construction. See below for a picture of the full machine.

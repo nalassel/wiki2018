@@ -4,10 +4,12 @@
     "links": {
         "home": "index",
         "team": "Team",
+        "meet_the_microbes": "Meet_the_Microbes",
         "collaborations": "Collaborations",
         "description": "Description",
         "design": "Design",
         "experiments": "Experiments",
+        "turbidostat": "Turbidostat",
         "demonstrate": "Demonstrate",
         "results": "Results",
         "notebook": "Notebook",
@@ -28,12 +30,14 @@
         "index" : "home",
         "_team"  : {
             "team": "team",
+            "meet_the_microbes": "meet_the_microbes",
             "collaborations": "collaborations"
         },
         "project": {
             "description": "description",
             "design": "design",
             "experiments": "experiments",
+            "turbidostat": "turbidostat",
             "demonstrate": "demonstrate",
             "results": "results",
             "notebook": "notebook"
@@ -59,10 +63,12 @@
     "markdown": {
         "home": "home",
         "team": "Team",
+        "meet_the_microbes": "Meet_the_Microbes",
         "collaborations": "Collaborations",
         "description": "Description",
         "design": "Design",
         "experiments": "Experiments",
+        "turbidostat": "turbidostat",
         "demonstrate": "Demonstrate",
         "results": "Results",
         "notebook": "Notebook",
