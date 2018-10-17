@@ -6,11 +6,43 @@ Our system utlizes the Ccas/Ccar System as an optogenetic switch. When exposed t
 
 ![Reaction Network Diagram](http://2018.igem.org/wiki/images/8/89/T--Waterloo--Model-ReactionNetwork.png)
 
-Formally, our network is equivalent to:
+##### Formally, our network is equivalent to:
 
-(Insert equations)
+\\[ \frac{\textrm{CcaS}_{a}(t)}{dt} =  k_1 \ell(t) + k\textrm{Prolif}(t)\\]
 
-We determined that this is the most accurate reaction network that could be derived in theory.
+<center>The subscript a indicates that we are tracking the rate of activation of the mentioned molecule.</center>
+
+\\[ \frac{\textrm{CcaR}_{a}(t)}{dt} =  k_2 \textrm{CcaS}_{a} (H(t-\tau_1)\cdot |t|) + k\textrm{Prolif}(t)\\]
+
+<center>Note that a Heaviside function is introduced to account for input-response delay in the network. Bacteria will not immediately respond to influence, and internal mechanisms will introduce delay.</center>
+
+\\[\frac{d\textrm{Prom}_{a}}{dt} = \alpha_0 + \alpha \frac{\textrm{CcaR}_{a} (t)}{k + \textrm{CcaR}(t)}\\]
+
+\\[ \frac{d\textrm{MetE}(t)}{dt} = k\textrm{Prom}_{a}(t) \\]
+
+\\[\textrm{Logistic}(t) =  \left( A+\frac{K-A}{(C+Qe^{-\beta t})^{1/\nu}} \right)\\]
+
+<center>All parameters excluding \\(t\\) (being time) are parameters which are up to experiment. Some parameters (such as C and Q) can be determined *a priori* based on the goals of our experiment. Q specifically is related to our boundary conditions, while C can simply be set to 1. </center>
+
+\\[ \frac{d\textrm{MetE}(t)}{dt} = \textrm{Logistic}\_{1} (t) \cdot \textrm{CcaR}_{a}(H(t - \tau_2)\cdot |t|) \\]
+
+\\[ \frac{d\textrm{Met}(t)}{dt} =  \textrm{Logistic}\_{2} (t) \cdot \textrm{MetE}(H(t- \tau_3)\cdot |t|) + E_1 (t)\cdot k_3 \\]
+
+\\[ \frac{d\textrm{GFP}(t)}{dt} =  \textrm{Logistic}\_{3} (t) \cdot \textrm{Met}(H(t- \tau_4)\cdot |t|)+ E_2 (t)\cdot k_4 \\]
+
+\\[ \frac{d\textrm{Prolif}(t)}{dt} =  \textrm{Logistic}\_{3} (t) \cdot \textrm{Met}(H(t- \tau_5)\cdot |t|)+ E_3 (t)\cdot k_5 \\]
+
+\\[\frac{dE_i}{dt} = \textrm{Prolif}(t) \cdot W(t)\\]
+
+<center>\\(W(t)\\) is a stochastic process - introducing functions like these into the model allows us to account for random/chaotic motion.</center>
+
+\\[\frac{dp_i}{dt}=(k-d)\textrm{GFP}(t) + \textrm{D}(t)\\]
+
+\\[\frac{dR}{dt} = \frac{d}{dt} \frac{p_1 (t)}{p_2 (t)} \\]
+
+<center>\\(\frac{dR}{dt}\\) is the ratio which we are trying to control.</center>
+
+We determined that this is the most accurate reaction network that could be derived in theory (though it doesn't account for all noise).
 
 ## Moving Horizon Estimate (MHE)
 MHE is a state estimation method that utilizes multiple measurements over time.  These measurements contain noise and other random variations.  However, MHE will allow for the production of estimates of unknown variables and parameters in the measurements despite noise.  MHE necessitates an iterative approach relying on either linear programming or nonlinear programming solvers to find solutions.  This method is particularly useful for nonlinear or constrained dynamic systems for which few general models with established properties and parameters are available.  
