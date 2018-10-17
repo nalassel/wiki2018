@@ -9,3 +9,7 @@ Microorganisms exist in complex and diverse communities. This enables a variety 
 This would open several doors in biotech and research. For instance, metabolic engineering of microbial communities may improve the production of pharmaceuticals, biofuels, and other important materials. Moreover, controllable co-cultures would allow researchers to explore complex interactions between microbes and investigate questions that could not previously be answered due to co-culturing limitations.
 
 ## Why are co-cultures important?
+
+<video width="100%" height="480" controls>
+<source src="http://2018.igem.org/wiki/images/e/e2/T--Waterloo--Collaborations_coculturevid.mov" type="video/mp4">
+</video>
