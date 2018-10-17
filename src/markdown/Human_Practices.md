@@ -2,6 +2,9 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;This year, our Human Practices work included a combination of new project ideas, as well as carefully refined projects from previous seasons. We had a strong focus on consulting experts and our work is grouped into four major categories: Societal Considerations, Communication and Public Bias, Public Engagement, and Safety. 
 
+![](http://2018.igem.org/wiki/images/8/89/T--Waterloo--HP-SC.png)
+
+
 ### Societal Considerations
 
 &nbsp;&nbsp;&nbsp;&nbsp;To better understand the societal impact of our project, it was important for us to explore our project in different contexts and gather opinions from our community. We began with interviews from several professors at the University of Waterloo and industry representatives, who provided us with insightful ideas about the real-world challenges and applications of our project. By combining their responses with our own imagination and research, we developed a project analysis and proposed a series of diverse potential applications of our system. Finally, we took a look at the barriers that would prevent a potential scale-up of our project and proposed a solution to overcome those barriers.  Please read more on our [Societal Considerations](http://2018.igem.org/Team:Waterloo/Societal_Considerations) page!
