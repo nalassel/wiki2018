@@ -1,4 +1,4 @@
-##Empty JT2
+## Empty JT2
 
 ![Empty JT2](http://2018.igem.org/wiki/images/5/56/T--Waterloo--MeetMicro_JT2.png)
 #### Strain 
