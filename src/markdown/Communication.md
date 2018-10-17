@@ -26,17 +26,17 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;Now, let’s get to the words and response times! As seen below, the most often missorted word overall was _solar panels_, with a total of 13 times. _Solar panels_ was missorted in a variety of blocks, but most often in the very first block when it was the very first word.The most commonly missorted words from the categories biotechnology, pleasant, and unpleasant were _optognetics_ with 8 missorts, _smile_ with 7 missorts, and _illness_ with 11 missorts. Many of these words were sorted incorrectly mostly during a control block (Blocks 1, 2, or 4), especially _optogenetics_ and _compassion_. In the 8 times _optogenetics_was missorted, 5 of them were in the first block and would have been the first time participants were seeing the word in the text. This word is representative of our project this year, so we took this to mean that we were not doing a good enough job communicating our project to our community. We tried to increase explanations with some videos we made, including our A-Z of Synthetic Biology, our Introduction to Optogenetics video, and our collaboration video with HHU. If we were to run this test again after participants watched these videos, perhaps they would be less likely to missort _optogenetics_. Other words of interest to our project and synthetic biology included _mutegenesis_, _bacteriophage_, and _GMO_. Surprisingly, these words were only missorted 5 times each, again mainly in control Blocks 1 and 4. This could mean that participants were better aware of these concepts, or at least their association with biotechnology.  
 
-![](http://2018.igem.org/wiki/images/5/5a/T--Waterloo--Communication-graph3.png)
+<center><img src="http://2018.igem.org/wiki/images/5/5a/T--Waterloo--Communication-graph3.png" /></center>
 
 _A histogram showing the frequency of response times amongst all participants_
 
 &nbsp;&nbsp;&nbsp;&nbsp;To analyze the response times, t-tests with a significance of _t_ < 0.05 were used. These tests showed that the difference in response times between the control _biotech_ vs _electrical tech_ control blocks were not significantly longer or shorter than the _mix compatible_ block, on which _biotech_ and _pleasant_ share a key, or in the _mix incompatible_ block, in which _biotech_ and _unpleasant_ share a key (see below). It should once again be noted that response times in the first control block, typically with _biotech_ on the “e” key, may be artificially inflated due to a misunderstanding of the test; many participants often did not get a chance to sort the first few words due to the timeout function. However, with the results as they are, it means that our overall participant pool had neither an implicit bias towards or against synthetic biology.  
 
-![](http://2018.igem.org/wiki/images/c/c5/T--Waterloo--Communication-graph1.png)
+<center><img src="http://2018.igem.org/wiki/images/c/c5/T--Waterloo--Communication-graph1.png" /></center>
 
 _A box and whiskers graph showing the average response times between the control block of biotech on the “e” key and electrical tech on the “i” key versus the mix compatible block where the biotech and pleasant categories share a response key_
 
-![](http://2018.igem.org/wiki/images/8/85/T--Waterloo--Communication-graph2.png)
+<center><img src="http://2018.igem.org/wiki/images/8/85/T--Waterloo--Communication-graph2.png" /></center>
 
 _A box and whiskers graph showing the average response times between the control block of biotech on the “i” key and electrical tech on the “e” key versus the mix incompatible block where the biotech and unpleasant categories share a response key_
 
@@ -52,3 +52,5 @@ _A box and whiskers graph showing the average response times between the control
 * **Thesaurus**: words to avoid and words to use when discussing these concepts with the public
 
 Try out our IAT [here!](http://igem.uwaterloo.ca/IAT/)
+
+
