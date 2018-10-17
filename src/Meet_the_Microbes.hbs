@@ -1,0 +1,22 @@
+{{template templates.head mode}}
+<html>
+
+{{navigation mode "_team" "meet_the_microbes"}}
+<div class="content">
+	
+  <div class="titleBox row" style="background: url({{image "" "directlink" mode}})">
+    <div class="layer shade">
+      <div class="squiggle squiggleForward col-xs-4"></div>
+      <div class="titleCaption col-xs-4">
+        <h1>
+          Meet the Microbes
+        </h1>
+      </div>
+      <div class="squiggle squiggleBackward col-xs-4"></div>
+    </div>
+  </div>
+
+{{markdown markdown.meet_the_microbes mode}}
+</div>
+</html>
+{{template templates.footer mode}}

@@ -13,7 +13,7 @@ Formally, our network is equivalent to:
 We determined that this is the most accurate reaction network that could be derived in theory.
 
 ## Moving Horizon Estimate (MHE)
-MHE is a state estimation method that utilizies multiple measurements over time.  These measurements contain noise and other random variations.  However, MHE will allow for the production of estimates of unknown variables and parameters in the measurements despite noise.  MHE necessitates an iterative approach relying on either linear programming or nonlinear programming solvers to find solutions.  This method is particularly useful for nonlinear or constrained dynamic systems for which few general models with established properties and parameters are available.  
+MHE is a state estimation method that utilizes multiple measurements over time.  These measurements contain noise and other random variations.  However, MHE will allow for the production of estimates of unknown variables and parameters in the measurements despite noise.  MHE necessitates an iterative approach relying on either linear programming or nonlinear programming solvers to find solutions.  This method is particularly useful for nonlinear or constrained dynamic systems for which few general models with established properties and parameters are available.  
 
 Since the optogenetic system we are utilizing is not yet generally modelled with established properties and not much data was available prior to experimentation, MHE was used in this project due to its capacity to estimate unknown variables and parameters during optimization.
 
@@ -37,7 +37,7 @@ $+ \sum _ { k = T - N } ^ { T - 1 } \left\| \hat { w } _ { k } \right\| ^ { 2 } 
 
 s.t. $\hat { x } _ { k + 1 } = A \hat { x } _ { k } + B u _ { k } + G \hat { w } _ { k } , \quad \hat { y } _ { k } = C \hat { x } _ { k } + \hat { v } _ { k }​$,
 
-where $T​$ is the current time, $x,y,u​$ are the GFP fluorescence, light signal output, and data input vectors of the system, $w, v​$ are the process disturbance noises and the measurement noise respectively,
+where $T​$ is the current time, $x,y,u​$ are the population ratio, light measurement, and output signal vectors of the system, $w, v​$ are the process disturbance noises and the measurement noise respectively,
 
 $Y _ { T - N } ^ { T } = \left[ y _ { T - N } ^ { T } , \dots , y _ { T } ^ { T } \right] ^ { T }​$
 
@@ -45,9 +45,9 @@ is the vector containing the past $N​$ inputs at time $T​$ with the $U​$ v
 
 The error dynamics of this model are as follows:
 
-$e_{t+1} = \sum_{i} Error_{i}e_{t} + D_{i} d$
+$e_{t+1} = \sum_{i} Error_{i}e_{t} + D_{i} d$. With the first term being the estimation error, and $D_{i}d$ being the error introduced by disturbing the system during measurement.
 
-where
+We have:
 
 $Error_i = MS_i F_e M^{-1},$
 
@@ -86,6 +86,8 @@ $\overline { a } = \left[ \begin{array} { c } { I } \\ { A } \\ { A ^ { 2 } } \\
 $a = \left[ \begin{array} { c } { \overline { a } } \\ { A ^ { N } } \end{array} \right]$
 
 and $\hat{K}_i, \hat{k}_i$ are the respective Lagrange multipliers and corresponding matrices.
+
+All of the above terms are derived in Voelker (2013)
 
 
 
@@ -126,6 +128,11 @@ Thus, to vary the amount of light being delivered to the system to provide a con
 #### Summary:
  * Decided to use a fixed period in the range of 1-10 minutes to minimize variability of expression of the optogenetic system controlled with pulse-width modulation.
  * Will adjust the duty cycle of PWM to affect levels of gene expression of the optogenetic system.
+ 
 #### References:
+
 **1.** Davidson, E. A., Basu, A. S., & Bayer, T. S. (2013). Programming Microbes Using Pulse Width Modulation of Optical Signals. *Journal of Molecular Biology*, 425(22), 4161–4166. doi:10.1016/j.jmb.2013.07.036
+
 **2.** Olson, E. J., Hartsough, L. A., Landry, B. P., Shroff, R., & Tabor, J. J. (2014). Characterizing bacterial gene circuit dynamics with optically programmed gene expression signals. Nature Methods, 11(4), 449-455. doi:10.1038/nmeth.2884
+
+**3.** Voelker, Anna, Konstantinos Kouramas, and Efstratios N. Pistikopoulos. "Moving Horizon Estimation: Error Dynamics and Bounding Error Sets for Robust Control." Automatica 49, no. 4 (2013): 943-48. Accessed October 16, 2018. doi:10.1016/j.automatica.2013.01.008.
