@@ -1,3 +1,5 @@
+##Empty JT2
+
 ![Empty JT2](http://2018.igem.org/wiki/images/5/56/T--Waterloo--MeetMicro_JT2.png)
 #### Strain 
 - _Escherichia coli_ [JT2 SKA974](https://www.addgene.org/80403/) 
@@ -23,6 +25,7 @@
 - Is methionine shared between cells? 
 - Biobrick [BBa_K2573000 characterization](http://parts.igem.org/Part:BBa_K2573000) 
 
+## JT2 - CcaS/R
 
 ![JT2 CcaS/R](http://2018.igem.org/wiki/images/a/a9/T--Waterloo--MeetMicro_JT2CcaSR.png) 
 #### Strain 
@@ -53,6 +56,8 @@ This strain has been engineered for optogenetic control using CcaS/R. Its genomi
 - What is the metabolic load of (over)expressing MetE?
 - Can we control growth with red and green light? 
 
+## Empty DH5alpha
+
 ![Empty DH5](http://2018.igem.org/wiki/images/9/92/T--Waterloo--MeetMicro_dh5.png) 
 
 #### Strain 
@@ -76,6 +81,7 @@ This strain has been engineered for optogenetic control using CcaS/R. Its genomi
 ### Which experiments was I involved in? 
 - Can we reliably measure 2 populations in co-culture?
 
+## DH5alpha - GFP
 
 ![DH5 GFP]()
 ### Strain 
