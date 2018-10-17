@@ -130,7 +130,7 @@ y= a + b<sup>exp(c<sup>x</sup>)</sup>
 - a=76.6
 - b=-71.2
 - c=-0.005
-  ![Hill function for green light](http://2018.igem.org/File:T--Waterloo--GreenLight_HillFxn.png)
+  ![Hill function for green light](http://2018.igem.org/wiki/images/0/08/T--Waterloo--GreenLight_HillFxn.png)
 #### Red Light
 The same analysis was done with red-light intensity.  Currently data is not available for CcaS-CcaR, therefore expression values for the Cph8-OmpR optogenetic system were used in its place.<sup>2</sup>
 Exponential function:
@@ -140,9 +140,9 @@ y= a + b<sup>exp(c<sup>x</sup>)</sup>
 - a=23.98
 - b=94.1
 - c=-0.007
-  ![Hill function for red light](http://2018.igem.org/File:T--Waterloo--HillFxn_RedLight.png)
+  ![Hill function for red light](http://2018.igem.org/wiki/images/2/25/T--Waterloo--HillFxn_RedLight.png)
 #### 3-D Plot
-![Hill Function 3d plot](http://2018.igem.org/File:T--Waterloo--Hillxn_3d.png)
+![Hill Function 3d plot](http://2018.igem.org/wiki/images/1/17/T--Waterloo--Hillxn_3d.png)
 ## Setting the Frequency and Duty Cycle for Light Modulation
 
 To alter gene expression of the optogenetic system, the modulation of light can be used to provide different degrees of gene expression. In turn, the modulation of light can be affected by changing the either the frequency or period of modulation, or the duty cycle. However, changing the frequency or period, or changing the duty cycle will have effects on observed gene expression.<sup>1</sup> For the purposes of our system, it was decided to alter the duty cycle and keep the frequency constant.
