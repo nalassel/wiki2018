@@ -1,3 +1,5 @@
+<center><img src="http://2018.igem.org/wiki/images/8/89/T--Waterloo--HP-SC.png" /></center>
+
 ![](http://2018.igem.org/wiki/images/8/89/T--Waterloo--HP-SC.png)
 
 ## Expert Consultation
