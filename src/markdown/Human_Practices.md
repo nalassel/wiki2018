@@ -6,7 +6,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;To better understand the societal impact of our project, it was important for us to explore our project in different contexts and gather opinions from our community. We began with interviews from several professors at the University of Waterloo and industry representatives, who provided us with insightful ideas about the real-world challenges and applications of our project. By combining their responses with our own imagination and research, we developed a project analysis and proposed a series of diverse potential applications of our system. Finally, we took a look at the barriers that would prevent a potential scale-up of our project and proposed a solution to overcome those barriers.  Please read more on our [Societal Considerations](http://2018.igem.org/Team:Waterloo/Societal_Considerations) page!
 
-![](http://2018.igem.org/wiki/images/5/56/T--Waterloo--HP-com_big.png)
+![](http://2018.igem.org/wiki/images/e/e7/T--Waterloo--HP-com_med.png)
 
 ## Communication and Public Bias
 
