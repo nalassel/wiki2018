@@ -35,11 +35,17 @@ $- \| Y _ { T - N } ^ { T - 1 } - \mathcal { O } \hat { x } _ { T - N | T } - \o
 
 $+ \sum _ { k = T - N } ^ { T - 1 } \left\| \hat { w } _ { k } \right\| ^ { 2 } + \sum _ { k = T - N } ^ { T } \left\| \hat { v } _ { k } \right\| ^ { 2 },$
 
-s.t. $\hat { x } _ { k + 1 } = A \hat { x } _ { k } + B u _ { k } + G \hat { w } _ { k } , \quad \hat { y } _ { k } = C \hat { x } _ { k } + \hat { v } _ { k }​$, where $T​$ is the current time, $x,y,u​$ are the state, output, and input vectors of the system, $w, v​$ are the process disturbance noises and the measurement noise respectively, $Y _ { T - N } ^ { T } = \left[ y _ { T - N } ^ { T } , \dots , y _ { T } ^ { T } \right] ^ { T }​$ is the vector containing the past $N​$ inputs at time $T​$ with the $U​$ variant defined analagously, and $Q \succeq 0, R \succeq 0, P_{T-N|T-1} \succeq 0​$ are the covariances of $w,v,x​$ assumed to be symmetric and time invariant for the steady state MHE. The matrix $\mathcal{O}​$ is defined in Tenney (2002). 
+s.t. $\hat { x } _ { k + 1 } = A \hat { x } _ { k } + B u _ { k } + G \hat { w } _ { k } , \quad \hat { y } _ { k } = C \hat { x } _ { k } + \hat { v } _ { k }​$,
+
+where $T​$ is the current time, $x,y,u​$ are the GFP fluorescence, light signal output, and data input vectors of the system, $w, v​$ are the process disturbance noises and the measurement noise respectively,
+
+$Y _ { T - N } ^ { T } = \left[ y _ { T - N } ^ { T } , \dots , y _ { T } ^ { T } \right] ^ { T }​$
+
+is the vector containing the past $N​$ inputs at time $T​$ with the $U​$ variant defined analagously, and $Q \succeq 0, R \succeq 0, P_{T-N|T-1} \succeq 0​$ are the covariances of $w,v,x​$ assumed to be symmetric and time invariant for the steady state MHE. The matrix $\mathcal{O}​$ is defined in Tenney (2002).
 
 The error dynamics of this model are as follows:
 
-$e_{t+1} = \sum_i Error_{i}e_t + D_i d $
+$e_{t+1} = \sum_{i} Error_{i}e_{t} + D_{i} d$
 
 where
 
