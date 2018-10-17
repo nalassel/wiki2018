@@ -92,13 +92,18 @@ Below, we’ve included four educational videos which we’ve shared with audien
 
 ### A-Z of Synthetic Biology (Parody Video)
 
-![A-Z Parody](http://2018.igem.org/wiki/images/4/42/T--Waterloo--E%26E-AZparody.mp4)
+<video width="100%" height="480" controls>
+<source src="http://2018.igem.org/wiki/images/4/42/T--Waterloo--E%26E-AZparody.mp4" type="video/mp4">
+</video>
 
 ### Debunking Synbio Myths
 
-![Debunking](http://2018.igem.org/wiki/images/c/c7/T--Waterloo--E%26E-DebunkingMyths.mp4)
+<video width="100%" height="480" controls>
+<source src="http://2018.igem.org/wiki/images/c/c7/T--Waterloo--E%26E-DebunkingMyths.mp4" type="video/mp4">
+</video>
 
 ### Co-Cultures
 
-![Co-Cultures](http://2018.igem.org/wiki/images/e/e2/T--Waterloo--Collaborations_coculturevid.mov)
-
+<video width="100%" height="480" controls>
+<source src="http://2018.igem.org/wiki/images/e/e2/T--Waterloo--Collaborations_coculturevid.mov" type="video/mp4">
+</video>
