@@ -12,7 +12,6 @@ Special thanks to Jyler Menard for finding many of the papers regarding MetE as 
 
 The original idea for optogenetically controlled co-cultures was developed by Cody Receno as part of the BIOL 349 (Synthetic Biology Project Design) course, co-taught by Trevor Charles and Brian Ingalls.
 
-
 ## Interlab 
 We would like to extend our most sincere gratitude to Prof. Raymond Legge (Dept. of Chemical Engineering, University of Waterloo) and Andrew Assatory, a graduate student working under Prof. Legge. These results would not have been possible without their assistance. Prof. Legge kindly allowed us to use his BioTek Synergy 4 plate reader on very short notice, and Andrew accommodated our use of the plate reader into his busy schedule.
 
@@ -33,6 +32,10 @@ Thank you to Western University’s Bogumil Karas for allowing member of the Wat
 ## Wiki and Logo Development
 
 The wiki was only possible due to the large amount of work that Nicki Shaw and Michael Astwood had put in throughout the year.
+
+## Hardware Support
+
+We would like to give thanks to Mark Soric, Brian Ingalls, and Matt Scott for allowing us to use the wonderful turbidostat. We would also like to thank Brian Ingalls and Matt Scott for allowing us to use their flow cytometer. Finally, we would like to thank Bruce Reed for lending us a blue LED capable of exciting GFP and several light filters.
 
 ## General Support
 
