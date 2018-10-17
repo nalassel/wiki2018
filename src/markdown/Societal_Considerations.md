@@ -24,17 +24,13 @@
 
 <center><img src="http://2018.igem.org/wiki/images/3/3b/T--Waterloo--SC-apps2.png" /></center>
 
-![](http://2018.igem.org/wiki/images/3/3b/T--Waterloo--SC-apps2.png)
-
 &nbsp;&nbsp;&nbsp;&nbsp;The use of optogenetics to maintain a stable and tunable co-culture is a very powerful tool that opens up many doors in both industry and research. To explore some of these doors, we looked to industry leaders and professionals from different fields of biology for inspiration on how they envisioned the world (including their own work) could benefit from the use of a controllable co-culture system. By combining our own imagination with their ideas, our team has outlined a series of project applications that can help propel various aspects of industry and research.  
 
 ### Application: Production of Functionalized Taxanes for Chemotherapy
 
 &nbsp;&nbsp;&nbsp;&nbsp;Taxane therapy is a form of chemotherapy that has dramatically increased the survival rate of breast cancer patients over the last few decades. This drug is able to inhibit mitosis and interferes with microtubules in a cell, which has been proven to be an effective treatment for cancer cells. The production of taxane has a complex pathway, however, by using a co-culture of _E. coli_ and _S. cerevisiae_. Their unique properties and functions can be exploited to create optimal environments for different steps of the pathway. _E. coli_, known for its high growth rate, can be engineered to produce large amounts of taxadiene, which is one of the intermediate products in the production of taxanes. _S. cerevisiae_, known for having advanced protein expression machinery, is a more suitable host for expressing cytochrome P450, which is an enzyme that functionalizes taxadiene through the catalysis of multiple oxygenation reactions. Currently, the co-cultures are maintained by using a media that only contains xylose as a carbon source, which is used by _E.coli_ and not _S.cerevisiae_. As xylose is metabolized by _E.coli_, it produces acetate which perturbs the growth of _E.coli_, but acts as the carbon source for _S. cerevisiae_. This interdependence between the two organisms limits the ratios that the two exist at, which directly affects the proportions of intermediates and products produced. The use of our optogenetic system provides a solution to this issue, as it gives dynamic control over the ratios between the two bacterium and can maximize the efficiency of this process. In addition, the dynamic capabilities of our system allows for quick and simple correction of population levels when one step is either falling behind or speeding up. 
 
-<center><img src="http://2018.igem.org/wiki/images/3/3b/T--Waterloo--SC-apps2.png" /></center>
-
-![](http://2018.igem.org/wiki/images/6/61/T--Waterloo--sc-diagram.png)
+<center><img src="http://2018.igem.org/wiki/images/6/61/T--Waterloo--sc-diagram.png" /></center>
 
 _Figure 1. A mutualistic E. coli – S. cerevisiae consortium for production of oxygenated taxanes. 
 Adapted from “Distributing metabolic pathway among a microbial consortium enhances production of natural products,” by K. Zhou, K. Qiao and S. Stephanopoulos, 2015, Nature Biotechnology, 33, 377-383. Copyright 2015 by Nature America Inc_
@@ -69,14 +65,9 @@ Adapted from “Distributing metabolic pathway among a microbial consortium enha
 &nbsp;&nbsp;&nbsp;&nbsp;Cases of type 1 and type 2 diabetes have consistently been rising since the 1980s in both developed and developing countries, with reports estimating nearly 422 million people globally living with the disease. New technologies have made significant advances in the way we treat this disease, and optogenetic control with regards to cell growth is one of the most promising of these applications. Optogenetic control is a powerful in relation to the treatment of chronic diseases (such as diabetes) due to its non-invasive and targeted approach, allowing for the selective treatment of a given type of cell or region within the body. Take the secretion of insulin in pancreatic β-cells, which is a process controlled by a variety of intracellular components. Of these components, cyclic AMP (cAMP) is the most important due to its regulatory activity. With the implementation of photoactivatable adenylyl cyclase (PAC) being used to mimic the effects of cAMP along the insulin secretion pathway, a team of scientists were able to effectively promote the release of insulin levels comparable to that of secretagogues treated β-cells via the use of an inducible optogenetic control system. Where the iGEM project comes in is through the creation of a system that would allow for the control of multiple bacterial cultures at once using an optogenetic system. Being able to control and induce multiple cellular regions and cultures with a system would ultimately be the best way of controlling something like insulin secretion in the case of diabetes. The issue lies in creating an automated control system to self regulate cell growth and protein production levels without having to manually uptick or decrease the system, something the Waterloo iGEM team is directly testing and refining. 
 
 
-<center><img src="http://2018.igem.org/wiki/images/3/3b/T--Waterloo--SC-apps2.png" /></center>
-
-![](http://2018.igem.org/wiki/images/0/06/T--Waterloo--sc-protein.png)
-
-
+<center><img src="http://2018.igem.org/wiki/images/0/06/T--Waterloo--sc-protein.png" /></center>
 
 _Figure 2. Space filling model of folded Insulin protein_
-
 
 **References**
 
@@ -93,8 +84,6 @@ _Figure 2. Space filling model of folded Insulin protein_
 1. Bogdanowicz, D. R., Lu, H. H. (2014). Studying cell-cell communication in co-culture. _Biotechnology Journal, 8(4)_, 395-396. doi:10.1002/biot.201300054 
 2. Hendriks, J., Riesle, J., van Blitterswijk, C. A. (2007) Co-culture in cartilage tissue engineering. _Journal of Tissue Engineering and Regenerative Medicine,1_, 170-178. doi:10.1002/term.19
 3. _Tissue Engineering Market Size, Share & Trends Analysis Report._ (2018). Retrieved from https://www.grandviewresearch.com/industry-analysis/tissue-engineering-and-regeneration-industry
-
-
 
 ### Make It Taste Better: Yogurt Application 
 &nbsp;&nbsp;&nbsp;&nbsp;Yogurt made its first appearance in 1989 and is promoted to be high in vitamins and calcium. In recent years, yogurt has become one of the most important ingredients to maintain a healthy diet, lifestyle, and balance work life. Optimizing yogurt consumption is an increasing need in an average household and the demand for different yogurt flavouring is slowly emerging. Further research in food and nutrition have found crucial microbes featured in many processes of yogurt production that will demonstrate health benefits including, but not limited to, lactose intolerance, food allergy, Crohn’s disease, and other acute infections in infants and children. With the use of optogenetic co-cultures, this system will allow us to manage the growth of two populations and in turn will give us the opportunity to control different yogurt flavours depending on the different stages of growth, acid contents, and volatile compounds during fermentation. Furthermore, with the ability to control the growth system of different populations, we will be able to identify and study cell-to-cell interactions and influence of probiotic bacteria, including _Lactobacillus acidophilus, Lactobacillus plantarum, Lactobacillus rhamnosus,_ and _Lactobacillus casei_, that might be present. Being able to utilize co-cultures to further research and integrate findings into the yogurt industry to enhance quality of food will be a stepping stone into improving community health. 
