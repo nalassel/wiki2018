@@ -28,17 +28,17 @@
 
 <center><img src="http://2018.igem.org/wiki/images/5/5a/T--Waterloo--Communication-graph3.png" /></center>
 
-_A histogram showing the frequency of response times amongst all participants_
+_Figure 1: A histogram showing the frequency of response times amongst all participants_
 
 &nbsp;&nbsp;&nbsp;&nbsp;To analyze the response times, t-tests with a significance of _t_ < 0.05 were used. These tests showed that the difference in response times between the control _biotech_ vs _electrical tech_ control blocks were not significantly longer or shorter than the _mix compatible_ block, on which _biotech_ and _pleasant_ share a key, or in the _mix incompatible_ block, in which _biotech_ and _unpleasant_ share a key (see below). It should once again be noted that response times in the first control block, typically with _biotech_ on the “e” key, may be artificially inflated due to a misunderstanding of the test; many participants often did not get a chance to sort the first few words due to the timeout function. However, with the results as they are, it means that our overall participant pool had neither an implicit bias towards or against synthetic biology.  
 
 <center><img src="http://2018.igem.org/wiki/images/c/c5/T--Waterloo--Communication-graph1.png" /></center>
 
-_A box and whiskers graph showing the average response times between the control block of biotech on the “e” key and electrical tech on the “i” key versus the mix compatible block where the biotech and pleasant categories share a response key_
+_Figure 2: A box and whiskers graph showing the average response times between the control block of biotech on the “e” key and electrical tech on the “i” key versus the mix compatible block where the biotech and pleasant categories share a response key_
 
 <center><img src="http://2018.igem.org/wiki/images/8/85/T--Waterloo--Communication-graph2.png" /></center>
 
-_A box and whiskers graph showing the average response times between the control block of biotech on the “i” key and electrical tech on the “e” key versus the mix incompatible block where the biotech and unpleasant categories share a response key_
+_Figure 3: A box and whiskers graph showing the average response times between the control block of biotech on the “i” key and electrical tech on the “e” key versus the mix incompatible block where the biotech and unpleasant categories share a response key_
 
 &nbsp;&nbsp;&nbsp;&nbsp;We also analyzed some specific words, especially _optogenetics_. Despite the fact that _optogenetics_ was missorted more often than any other synthetic biology word, it was sorted significantly faster in the _mix compatible_ block (1103 ms)  than in the control block before it (1408 ms). With a null hypothesis of the previous block having significantly longer response times than the mixed block after it, a t of 0.089330505 is significant at the alpha=0.05 level. As well, _optogenetics_ was sorted significantly slower in the _mix incompatible_ block (1100 ms) than in the control block before it (1094 ms) with a t = 0.486599992. These things together could mean our participants overall had an implicit bias **towards** _optogenetics_, or at least do not have an implicit bias against it. _Bacteriophage_, however, showed a different effect: it was sorted significantly slower in the _mix compatible_ block (1131 ms) than in the control block (1026 ms) at t=0.292824781, while also being slightly slower in the _mix incompatible_ (1276 ms) than in the control (949 ms) with an almost-rejectionable t=0.074143696. This could mean a slight bias against _bacteriophage_; participants were generally slower to associate this word with pleasant concepts. _GMO_, surprisingly, was sorted faster in _mix compatible_ when _biotech_ shard a key with _pleasant_, and slower in _mix incompatible_, which, as stated above, would suggest an implicit bias towards the word. 
 
