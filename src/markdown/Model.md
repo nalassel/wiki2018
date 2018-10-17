@@ -30,9 +30,9 @@ Our system utlizes the Ccas/Ccar System as an optogenetic switch. When exposed t
 
 \\[ \frac{d\textrm{GFP}(t)}{dt} =  \textrm{Logistic}\_{3} (t) \cdot \textrm{Met}(H(t- \tau_4)\cdot |t|)+ E_2 (t)\cdot k_4 \\]
 
-\\[ \frac{d\textrm{Prolif}(t)}{dt} =  \textrm{Logistic}\_{3} (t) \cdot \textrm{Met}(H(t- \tau_5)\cdot |t|)+ E_3 (t)\cdot k_5 \\]
+\\[ \frac{d\textrm{Prolif}(t)}{dt} =  \textrm{Logistic}\_{4} (t) \cdot \textrm{Met}(H(t- \tau_5)\cdot |t|)+ E_3 (t)\cdot k_5 \\]
 
-\\[\frac{dE_i}{dt} = \textrm{Prolif}(t) \cdot W(t)\\]
+\\[\frac{dE_i}{dt} = \textrm{Prolif}(t) \cdot k_i\\]
 
 <center>\\(W(t)\\) is a stochastic process - introducing functions like these into the model allows us to account for random/chaotic motion.</center>
 
