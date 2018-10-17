@@ -211,3 +211,84 @@ _Pouring and running your gel:_
 1. Decant and re-suspend in 5mL cold CaCl2 + 15% glycerol
 1. Alliquot 50ul into sterile 1.5mL microfuge tubes on ice
 2. Flash freeze tubes using liquid nitrogen and place in -80°C freezer. 
+
+## Methionine sharing
+1.	Prepare an overnight culture of methionine non-producers and optogenetic methionine producers in the turbidostat
+2.	Spin down 650 µL of the optogenetic population at 13000 RPM for 1 minute
+3.	Remove the supernatant
+4.	Resuspend cells in 25 mL of M9 media that lacks methionine (M9-met)
+5.	Spin down at 13000 RPM for 1 minute
+6.	Aspirate
+7.	Resuspend in 25mL of M9-met with 25 µL of appropriate antibiotic for your population’s resistance
+8.	Grow until OD nears 0.4
+9.	Set aside 50 µL of the optogenetic population
+10.	Spin down the rest at 13000 RPM for 2 minutes
+11.	Aseptically filter sterilize the supernatant 
+12.	Take 100 µL of methionine non-producer culture, spin down 13000 RPM for 1 minute
+13.	Draw off supernatant
+14.	Resuspend in 1mL of M9-met
+15.	Set up experimental tubes and controls according to the following table
+
+<table>
+  <tr>
+    <th>Test Tube #</<th>
+    <th>Control</<th>
+    <th>Components</<th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Experimental</td>
+    <td>
+      → M9 - met with CcaS/R v2.0 JT2 removed (3 mL) <br>
+      → Empty JT2 (50 µL)
+    </td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Positive</td>
+    <td>
+      → M9 - met with CcaS/R v2.0 JT2 removed (3 mL)<br>
+      → CcaS/R v2.0 JT2 (50 µL)
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Positive</td>
+    <td>
+      → M9 - met with CcaS/R v2.0 JT2 removed (3 mL)<br>
+      → Empty JT2 (50 µL)<br>
+      → Met (150 µL)    </td>
+    </td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Negative</td>
+    <td>
+      → M9 - met with CcaS/R v2.0 JT2 removed (3 mL)    </td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Negative</td>
+    <td>
+      → Stock M9 - met (3 mL)<br>
+      → Met (150 µL)
+    </td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Negative</td>
+    <td>
+      → Stock M9 - met (3 mL)<br>
+      → Empty JT2 (50 µL)    </td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Positive</td>
+    <td>
+      → Stock M9 - met (3 mL)<br>
+      → Empty JT2 (50 µL)<br>
+      → Met (150 µL)    </td>
+  </tr>
+</table>
+
+16.	Grow overnight at 37C
+17.	Record OD readings
