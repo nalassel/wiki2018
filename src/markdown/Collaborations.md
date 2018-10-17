@@ -45,5 +45,7 @@ Check out [other teams' postcards](http://2018.igem.org/Team:Duesseldorf/Collabo
 **Co-cultures video**
 Having collaborated with the Duesseldorf iGEM team, we learned more about their project and realized that both our projects aim to solve the same problem - but in different ways! We reached out to them and asked them to help us make a video explaining the importance of co-cultures. This video aims to engage/inform the general public on co-cultures and serve as an introduction to our projects. 
 
-![co-culturesvideo](http://2018.igem.org/wiki/images/e/e2/T--Waterloo--Collaborations_coculturevid.mov)
+<video width="100%" height="480" controls>
+<source src="http://2018.igem.org/wiki/images/e/e2/T--Waterloo--Collaborations_coculturevid.mov" type="video/mp4">
+</video>
  
