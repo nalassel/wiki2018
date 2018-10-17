@@ -61,11 +61,7 @@ For a control system such as ours, the error dynamics are critical to derive. We
 
 We will use the following constrained convex optimization formulation of MHE:
 
-\\[\min_{\hat { x }_{T - N | T } , \hat { W } _ { T - N | T } ^ { T - 1 } } \| \hat { x } _ { T - N | T } - x _ { T - N | T } \| ^ { 2 }\\]
-
-\\[- \| Y _ { T - N } ^ { T - 1 } - \mathcal { O } \hat { x } _ { T - N | T } - \overline { c b } U _ { T - N } ^ { T - 2 } \|^2 \\]
-
-\\[+ \sum _ { k = T - N } ^ { T - 1 } \left\| \hat { w } _ { k } \right\| ^ { 2 } + \sum _ { k = T - N } ^ { T } \left\| \hat { v } _ { k } \right\| ^ { 2 },\\]
+\\[\min_{\hat { x }_{T - N | T } , \hat { W } _ { T - N | T } ^ { T - 1 } } \| \hat { x } _ { T - N | T } - x _ { T - N | T } \| ^ { 2 } - \| Y _ { T - N } ^ { T - 1 } - \mathcal { O } \hat { x } _ { T - N | T } - \overline { c b } U _ { T - N } ^ { T - 2 } \|^2 + \sum _ { k = T - N } ^ { T - 1 } \left\| \hat { w } _ { k } \right\| ^ { 2 } + \sum _ { k = T - N } ^ { T } \left\| \hat { v } _ { k } \right\| ^ { 2 },\\]
 
 such that  \\(\hat { x } _ { k + 1 } = A \hat { x } _ { k } + B u _ { k } + G \hat { w } _ { k } , \quad \hat { y } _ { k } = C \hat { x } _ { k } + \hat { v } _ { k }​\\),
 
