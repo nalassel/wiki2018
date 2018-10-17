@@ -35,7 +35,7 @@ We will use the following constrained convex optimization formulation of MHE:
 
 \\[+ \sum _ { k = T - N } ^ { T - 1 } \left\| \hat { w } _ { k } \right\| ^ { 2 } + \sum _ { k = T - N } ^ { T } \left\| \hat { v } _ { k } \right\| ^ { 2 },\\]
 
-s.t. \\[\hat { x } _ { k + 1 } = A \hat { x } _ { k } + B u _ { k } + G \hat { w } _ { k } , \quad \hat { y } _ { k } = C \hat { x } _ { k } + \hat { v } _ { k }​\\],
+such that  \\(\hat { x } _ { k + 1 } = A \hat { x } _ { k } + B u _ { k } + G \hat { w } _ { k } , \quad \hat { y } _ { k } = C \hat { x } _ { k } + \hat { v } _ { k }​\\),
 
 where \\(T​\\) is the current time, \\(x,y,u​\\) are the population ratio, light measurement, and output signal vectors of the system, \\(w, v​\\) are the process disturbance noises and the measurement noise respectively,
 
@@ -47,7 +47,7 @@ The error dynamics of this model are as follows:
 
 \\(e_{t+1} = \sum_{i} Error_{i}e_{t} + D_{i} d\\). With the first term being the estimation error, and \\(D_{i}d\\) being the error introduced by disturbing the system during measurement.
 
-We have:
+We have the following equations which were derived in Voelker (2013):
 
 \\[Error_i = MS_i F_e M^{-1},\\]
 
@@ -85,9 +85,7 @@ We have:
 
 \\[a = \left[ \begin{array} { c } { \overline { a } } \\\ { A ^ { N } } \end{array} \right]\\]
 
-and \\(\hat{K}_i, \hat{k}_i\\) are the respective Lagrange multipliers and corresponding matrices.
-
-All of the above terms are derived in Voelker (2013)
+\\(\hat{K}_i, \hat{k}_i\\) are the respective Lagrange multipliers and corresponding matrices.
 
 
 
@@ -106,7 +104,7 @@ y= a + b<sup>exp(c<sup>x</sup>)</sup>
 - a=76.6
 - b=-71.2
 - c=-0.005
-  ![](http://2018.igem.org/File:T--Waterloo--GreenLight_HillFxn.png)
+  ![Hill function for green light](http://2018.igem.org/File:T--Waterloo--GreenLight_HillFxn.png)
 #### Red Light
 The same analysis was done with red-light intensity.  Currently data is not available for CcaS-CcaR, therefore expression values for the Cph8-OmpR optogenetic system were used in its place.<sup>2</sup>
 Exponential function:
@@ -116,10 +114,11 @@ y= a + b<sup>exp(c<sup>x</sup>)</sup>
 - a=23.98
 - b=94.1
 - c=-0.007
-  ![](http://2018.igem.org/File:T--Waterloo--HillFxn_RedLight.png)
+  ![Hill function for red light](http://2018.igem.org/File:T--Waterloo--HillFxn_RedLight.png)
 #### 3-D Plot
-![](http://2018.igem.org/File:T--Waterloo--Hillxn_3d.png)
+![Hill Function 3d plot](http://2018.igem.org/File:T--Waterloo--Hillxn_3d.png)
 ## Setting the Frequency and Duty Cycle for Light Modulation
+
 To alter gene expression of the optogenetic system, the modulation of light can be used to provide different degrees of gene expression. In turn, the modulation of light can be affected by changing the either the frequency or period of modulation, or the duty cycle. However, changing the frequency or period, or changing the duty cycle will have effects on observed gene expression.<sup>1</sup> For the purposes of our system, it was decided to alter the duty cycle and keep the frequency constant.
 Previous studies using the same optogenetic system expressing GFP and controlled using pulse-width modulation (PWM) demonstrated that frequency largely plays are role in modifying the amplitude of gene expression (difference between the maximal and minimal fluorescence values). Where a longer period indicated a larger amplitude.<sup>1</sup> This means that changing the period of light modulation affected variability of gene expression observed between light pulses. Since the goal of the project is a fine-tuned controller for growth rate, it would be more beneficial to use a shorter and fixed period to minimize variability of expression of the optogenetic system.
 To determine what fixed period to use, certain boundaries must be kept in mind. First, the implementation of a PWM control strategy require that switching between 'on' and 'off' light signals occurs more rapidly than the system can respond.<sup>1</sup> This allows the system to average the input and return an even output, despite light modulation. Secondly, at low input period, the system cannot respond fast enough to track input signals for induction and repression, which is required for PWM control.<sup>1</sup> To remain within these boundaries, previous research indicates using a period in the range of 1-10 minutes.<sup>1</sup>
