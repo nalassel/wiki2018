@@ -1,7 +1,4 @@
 
-
-# Attributions 
-
 Our project would not have been possible without the help of several people. Here, we would like to take the time to recognise and thank everyone who helped us on our journey this year! 
 
 ## Project Development
