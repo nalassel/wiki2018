@@ -88,7 +88,7 @@ Presentation material was developed and encompassed the following:
 
 ## Videos
 
-Below, we’ve included four educational videos which we’ve shared with audiences of all ages to help the public learn more about synthetic biology!
+Below, we’ve included three educational videos which we’ve shared with audiences of all ages to help the public learn more about synthetic biology!
 
 ### A-Z of Synthetic Biology (Parody Video)
 
