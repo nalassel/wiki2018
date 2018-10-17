@@ -1,5 +1,3 @@
-# Modeling
-
 ## Model Formulation
 
 Our system utlizes the Ccas/Ccar System as an optogenetic switch. When exposed to green light, the Ccas photoreceptor transfers its phosphate group to its binding partner, the Ccar molecule. The Ccar molecule then induces the expression of the gene of interest. Since the expression of MetE is crucial to the production of methionine, it is the optimal choice for our gene of interest. The production of methionine allows the cell to function and profilerate. In order to accurately measure the rate of proliferation, we have artifically inserted GFP, whose levels will be determined by a camera.

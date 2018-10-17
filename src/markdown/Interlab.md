@@ -1,4 +1,3 @@
-
 ## Purpose 
 
 The fifth International Inter-Laboratory Measurement Study aims to collect many UV-Vis and fluorescence spectroscopy measurements of provided standards and E. coli carrying certain devices. By relating these data to plate counts, the Interlab study will make it easier to compare fluorescence measurements taken on different instruments, a significant improvement to synthetic biology research. 

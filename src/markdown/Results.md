@@ -1,4 +1,3 @@
-
 ![metSharing](http://2018.igem.org/wiki/images/9/95/T--Waterloo--Results_MetSharing.jpg)
 
 # Methionine Sharing Experiment

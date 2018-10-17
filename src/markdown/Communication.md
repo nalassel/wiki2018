@@ -1,4 +1,3 @@
-
 ### Introduction
 &nbsp;&nbsp;&nbsp;&nbsp;The Implicit Association Test, or IAT, is a psychological tool for determining implicit (subconscious) biases towards or against opposing categories (Gray and Bjorklund, 2014). The test and theory are simple: sort words into categories while response times are recorded, and see if response times are significantly longer or shorter when a test and control category share a key. Psychologically, this potentially means that the closer two things are already neuro-pathologically linked in someone’s mind, the faster they are going to respond when those two things share a response key on the keyboard (Gray and Bjorklund, 2014). For example, people will often respond more quickly when words concerning insects share a response key with negative words, pointing towards a possible bias against insects. 
 
