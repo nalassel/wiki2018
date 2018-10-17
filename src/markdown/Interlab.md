@@ -1,6 +1,8 @@
 
 ## Purpose 
 
+The fifth International Inter-Laboratory Measurement Study aims to collect many UV-Vis and fluorescence spectroscopy measurements of provided standards and E. coli carrying certain devices. By relating these data to plate counts, the Interlab study will make it easier to compare fluorescence measurements taken on different instruments, a significant improvement to synthetic biology research. 
+
 We completed three calibrations, each of which measured standardised non-living samples provided by iGEM. These calibrations established absorbance and fluorescence baselines for further measurements, and gave a way to relate absorbance to number of E. coli-like particles. 
 
 We then moved onto live E. coli, measuring the absorbance and fluorescence of populations carrying different GFP-encoding devices. It was possible to compute the fluorescence per cell for each device.
@@ -48,24 +50,24 @@ Four replicates were used, each with Milli-Q water as a blank. This calibration 
 
 The first attempt was conducted using the Molecular Devices Model F5 reader. The results are shown in figure 1.
 
-![figure1](http://parts.igem.org/wiki/images/9/9b/T--Waterloo-Interlab-Fig1.png.zip)  
+![Insert figure 1](http://parts.igem.org/wiki/images/b/b1/T--Waterloo--Waterloo--Interlab_Fig_1--.png)   
 
 Fig. 1. Raw absorbance results of calibration #1 attempt #1.
 
 Once problems with calibrations #2 and #3 dictated that the BioTek plate reader was going to be used instead of the Molecular Devices Model F5 reader, it was necessary to repeat calibration #1 with the BioTek plate reader for the sake of consistency. Therefore the second attempt at calibration #1 was conducted using the BioTek Synergy 4 plate reader (fig. 2). 
 
-[Insert figure 2] 
+![Insert figure 2](http://parts.igem.org/wiki/images/4/4a/T--Waterloo--Waterloo--Interlab_Fig_2--.png)
 
 Fig. 2. Raw absorbance results of calibration #1 attempt #2
 
 This data differs from that obtained in attempt #1, but a different instrument was used to obtain the measurements, so this is expected. The OD600/Abs600 value obtained in attempt #2 was used in all subsequent experiments. 
 
 ### Calibration 2
-Calibration #2 measured the Abs600 of a dilution series of monodisperse silica microspheres provided by iGEM in Milli-Q water. This is useful because silica microspheres share similar optical characteristics with cells. We were able to construct a standard curve relating Abs600 to particle concentration.
+Calibration #2 measured the Abs_600 of a dilution series of monodisperse silica microspheres provided by iGEM in Milli-Q water. This is useful because silica microspheres share similar optical characteristics with cells. We were able to construct a standard curve relating Abs_600 to particle concentration.
 
 The first attempt was conducted using the Molecular Devices Model F5 reader, pipetting up and down in each well prior to reading. The absorbance plot (fig. 3) shows a strong positive correlation (R^2 = 0.9839), but there is visible deviation from a straight line. The relatively large error bars also show poor agreement between replicates. 
 
-![Insert figure 3](http://parts.igem.org/wiki/images/6/61/T--Waterloo-Interlab_Fig3.png) 
+![Insert figure 3](http://parts.igem.org/wiki/images/7/74/T--Waterloo--Waterloo-Interlab_Fig_3--.png) 
 
 Fig. 3. Absorbance plot for calibration #2 attempt 1. Error bars represent standard deviation.
 
@@ -73,7 +75,7 @@ Along with the problems faced with fluorescence readings in calibration #3, thes
 
 The second attempt was conducted using the BioTek Synergy 4 plate reader, pipetting up and down in each well prior to reading. The linear absorbance plot has a higher  R^2 value than the first attempt (R^2 = 0.9915), but there are still some visible deviations from linearity. However, the error bars tend to be much smaller, indicating better agreement between replicates.
 
-[Insert figure 4]
+![Insert figure 4](http://parts.igem.org/wiki/images/8/8c/T--Waterloo--Waterloo--Interlab_Fig_4--.png)
 
 Fig. 4. Absorbance plot for calibration #2 attempt 2. Error bars represent standard deviation.
 
@@ -81,7 +83,7 @@ In addition to the data’s lack of linearity, it was also noted that the wells 
 
 The third attempt was completed using all of the same specifications as the second, but the plate reader’s shake feature was used to shake the plate on “high” for 3 minutes prior to reading. The linear absorbance plot (fig. 5) has a better R^2 value than attempt 2 (R^2 = 0.9962), suggesting that shaking helped avoid settling. The error bars are also relatively small, indicating good agreement between replicates, as in attempt 2. 
 
-[Insert figure 5]
+![Insert figure 5](http://parts.igem.org/wiki/images/3/38/T--Waterloo--Waterloo-Interlab_Fig_5--.png)
 
 Fig. 5. Absorbance plot for calibration #2 attempt 3. Error bars represent standard deviation.
 
@@ -90,7 +92,7 @@ Calibration #3 measured the fluorescence of a dilution series of fluorescein sol
 
 The first attempt was completed using the Molecular Devices Model F5 reader. The linear fluorescence plot shows nearly constant fluorescence as a function of concentration. However, some noise is also present, resulting in an extremely low R^2 value of 0.0815. The error bars vary greatly in size, indicating large variations in the degree of agreement between replicates. 
 
-[Insert figure 6]
+![Insert figure 6](http://parts.igem.org/wiki/images/e/e9/T--Waterloo--Waterloo--Interlab_Fig_6--.png)
 
 Fig. 6. Fluorescence plot for calibration #3 attempt 1. Error bars represent standard deviation.
 
@@ -100,19 +102,20 @@ This problem was the main reason for switching to the BioTek Synnergy 4 plate re
 
 The second attempt was completed using the BioTek Synnergy 4 plate reader. The linear fluorescence plot shows an extremely strong positive linear correlation (R^2 = 0.9999) between fluorescence and concentration. The error bars are also very small, indicating strong agreement between replicates. The data collected in this attempt is exactly as expected, so no further attempts were required. 
 
-[Insert figure 7]
+![Insert figure 7](http://parts.igem.org/wiki/images/c/ca/T--Waterloo--Waterloo--Interlab_Fig_7--.png)
+
 Fig. 7. Fluorescence plot for calibration #3 attempt 2. Error bars represent standard deviation.
 
 ### Cell Measurement Protocol 
 This section of the protocol compared the fluorescence of E. coli DHS alpha transformants with each of six test devices and two controls. Two colonies of each transformant were picked and grown overnight in LB + Cm broth. They were then diluted to a provided target OD600 of 0.10, which was calculated to correspond to an Abs600 of 0.024. The fluorescence of each diluted sample was then measured with excitation and emission wavelengths of 485 nm and 525 nm respectively. These results are presented in figure 9. Fluorescence was measured immediately after dilution (0h) and after 6h incubation. 
 
-[Insert figure 8]
+![Insert figure 8](http://parts.igem.org/wiki/images/b/b8/T--Waterloo--Waterloo--Interlab_Fig_8--.png)
 
 Fig. 8. Absolute fluorescence of each control and device at t = 0h and t = 6h.
 
 For each sample, the equivalent concentration of fluorescein per particle was then calculated using fluorescence and absorbance measurements, as well as the conversion factors calculated in the calibrations. This corresponds approximately to the concentration of fluorescein molecules that gives the same fluorescence as one bacterial cell. Greater values indicate higher expression of GFP for that device (figure 9).
 
-[Insert figure 9]
+![Insert figure 9](http://parts.igem.org/wiki/images/2/2d/T--Waterloo--Waterloo--Interlab_Fig_9--.png)
 
 Fig. 9. Equivalent fluorescein fluorescence per particle of each control and device at t = 0h and t = 6h.
 
@@ -127,7 +130,9 @@ This protocol investigated the relationship between absorbance and colony-formin
 
 The cultures were diluted further and spread onto LB agar + Cm plates, giving final dilution factors of 8x10^4, 8x10^5, and 8x10^6. The plates were incubated overnight and the colonies counted. This allowed calculation of CFUs per mL of Abs600 = 0.024 sample.
 
-[Insert figure 10]
+![Insert figure 10](http://parts.igem.org/wiki/images/3/30/T--Waterloo--Waterloo--Interlab_Fig10.png)
+
+Fig. 10. Calculated CFU/mL values for each dilution for each colony.
 
 These data are relatively poor because of the very large error bars. These error bars are especially large for 8x10^6. This can be attributed to the very low colony counts on these plates, which were as low as 1 or 0 for some plates. Results drawn from such low colony counts are not statistically sound. 8x10^4 and 8x10^5 produced poor data for similar reasons, but the error is less extreme. However, some general conclusions may be drawn. 
 
