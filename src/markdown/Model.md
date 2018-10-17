@@ -51,13 +51,13 @@ We have:
 
 \\[Error_i = MS_i F_e M^{-1},\\]
 
-\\[D_i = MS_i\begin{bmatrix} F_w & F_v \end{bmatrix} \begin{bmatrix} W \\ V \end{bmatrix},\\]
+\\[D_i = MS_i\begin{bmatrix} F_w & F_v \end{bmatrix} \begin{bmatrix} W \\\ V \end{bmatrix},\\]
 
 \\[M = \begin{bmatrix} A^N & g_T \\\ 0 & I\end{bmatrix},\\]
 
 \\[S_i = (I+H^{-1}\hat{K}^\top_i(\hat{K}_i H^{-1} \hat{K}_i^\top)^{-1})\hat{K}_i)^{-1} \cdot (-I + H^{-1}\hat{K}_i^\top (\hat{K}_iH^{-1}\hat{K}_i)^{-1}\hat{K}_i)H^{-1},\\]
 
-\\[H \approx \begin{bmatrix} 2 P^{-1} + 2ca^\top\cdot \mathrm{diag}(R^{-1})\cdot ca & 2ca^\top \cdot \mathrm{diag}(R^{-1}) \\ 2 \cdot \mathrm{diag}(R^{-1}) \cdot ca & 2\mathrm{diag}(Q^{-1})+\mathrm{diag}(R^{-1}) \end{bmatrix},\\]
+\\[H \approx \begin{bmatrix} 2 P^{-1} + 2ca^\top\cdot \mathrm{diag}(R^{-1})\cdot ca & 2ca^\top \cdot \mathrm{diag}(R^{-1}) \\\ 2 \cdot \mathrm{diag}(R^{-1}) \cdot ca & 2\mathrm{diag}(Q^{-1})+\mathrm{diag}(R^{-1}) \end{bmatrix},\\]
 
 \\[ca = \mathrm{diag}(C)\cdot a,\\]
 
@@ -65,25 +65,25 @@ We have:
 
 \\[\overline{cb} = \mathrm{ diag } ( C ) \cdot \overline { b},\\]
 
-\\[\overline { b } = \begin{bmatrix} { 0 } & { 0 } & { \cdots } & { 0 } \\ { B } & { 0 } & { \cdots } & { 0 } \\ { A \cdot B } & { B } & { \cdots } & { 0 } \\ { A ^ { 2 } \cdot B } & { A \cdot B } & { \cdots } & { 0 } \\ { \vdots } & { } & { \ddots } & { } \\ { A ^ { N - 2 }  \cdot B } & { A ^ { N - 3 } } \cdot { B } & \cdots &  { B } \end{bmatrix}\\]
+\\[\overline { b } = \begin{bmatrix} { 0 } & { 0 } & { \cdots } & { 0 } \\\ { B } & { 0 } & { \cdots } & { 0 } \\\ { A \cdot B } & { B } & { \cdots } & { 0 } \\\ { A ^ { 2 } \cdot B } & { A \cdot B } & { \cdots } & { 0 } \\\ { \vdots } & { } & { \ddots } & { } \\\ { A ^ { N - 2 }  \cdot B } & { A ^ { N - 3 } } \cdot { B } & \cdots &  { B } \end{bmatrix}\\]
 
 
 
-\\[\overline {g} = \begin{bmatrix} 0 &  0 & { \cdots } & { 0 } \\ { G } & { 0 } & { \cdots } & { 0 } \\ { A \cdot G } & { G } & { \cdots } & { 0 } \\ { A ^ { 2 } \cdot G } & { A \cdot G } & { \cdots } & { 0 } \\ { \vdots } & { } & { \ddots } & { } \\ { A ^ { N - 2 } \cdot G } & { A ^ { N - 3 } \cdot G } & { \cdots } & { G } \end{bmatrix},\\]
+\\[\overline {g} = \begin{bmatrix} 0 &  0 & { \cdots } & { 0 } \\\ { G } & { 0 } & { \cdots } & { 0 } \\\ { A \cdot G } & { G } & { \cdots } & { 0 } \\\ { A ^ { 2 } \cdot G } & { A \cdot G } & { \cdots } & { 0 } \\\ { \vdots } & { } & { \ddots } & { } \\\ { A ^ { N - 2 } \cdot G } & { A ^ { N - 3 } \cdot G } & { \cdots } & { G } \end{bmatrix},\\]
 
-\\[g = \begin{bmatrix} { } & { \overline { g } } & { } & { } \\ { A ^ { N - 1 } \cdot G } & { \cdots } & { G } \end{bmatrix},\\]
+\\[g = \begin{bmatrix} { } & { \overline { g } } & { } & { } \\\ { A ^ { N - 1 } \cdot G } & { \cdots } & { G } \end{bmatrix},\\]
 
 \\[g_T = \begin{bmatrix} A^{N-1} \cdot G & \cdots & G \end{bmatrix},\\]
 
-\\[F_w  = \begin{bmatrix} 0 \\ 2 \cdot \mathrm{diag}(Q^{-1}) \end{bmatrix},\\]
+\\[F_w  = \begin{bmatrix} 0 \\\ 2 \cdot \mathrm{diag}(Q^{-1}) \end{bmatrix},\\]
 
-\\[F_v = \begin{bmatrix} -ca^\top \cdot \mathrm{diag}(R^{-1}) \\ -cg^\top \cdot \mathrm{diag}(R^{-1}) \end{bmatrix},\\]
+\\[F_v = \begin{bmatrix} -ca^\top \cdot \mathrm{diag}(R^{-1}) \\\ -cg^\top \cdot \mathrm{diag}(R^{-1}) \end{bmatrix},\\]
 
-\\[F _ { e } = \begin{bmatrix} { 2 P ^ { - 1 } \cdot A } & { \left[ 2 P ^ { - 1 } \cdot G , 0 , \cdots , 0 \right] } \\ { 0 } & { 0 } & { } \end{bmatrix},\\]
+\\[F _ { e } = \begin{bmatrix} { 2 P ^ { - 1 } \cdot A } & { \left[ 2 P ^ { - 1 } \cdot G , 0 , \cdots , 0 \right] } \\\ { 0 } & { 0 } & { } \end{bmatrix},\\]
 
-\\[\overline { a } = \left[ \begin{array} { c } { I } \\ { A } \\ { A ^ { 2 } } \\ { \vdots } \\ { A ^ { N - 1 } } \end{array} \right]\\]
+\\[\overline { a } = \left[ \begin{array} { c } { I } \\\ { A } \\\ { A ^ { 2 } } \\\ { \vdots } \\\ { A ^ { N - 1 } } \end{array} \right]\\]
 
-\\[a = \left[ \begin{array} { c } { \overline { a } } \\ { A ^ { N } } \end{array} \right]\\]
+\\[a = \left[ \begin{array} { c } { \overline { a } } \\\ { A ^ { N } } \end{array} \right]\\]
 
 and \\(\hat{K}_i, \hat{k}_i\\) are the respective Lagrange multipliers and corresponding matrices.
 
