@@ -24,10 +24,9 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;Waterloo iGEM has ensured that all safety measures have been followed and improved upon from previous years. From multiple training modules being completed by each lab member to the implementation of full chemical inventory and eyewash maintenance systems, the lab was able to be productive and organized while maintaining a high level of safety. The project was designed with safety in mind as well, in order to reduce risks. To read about the full work done regarding safety for the Waterloo iGEM team, please visit the [Safety](http://2018.igem.org/Team:Waterloo/Safety) page!
 
-
-
 ## ![](http://2018.igem.org/wiki/images/6/64/T--Waterloo--HP-goldmedal_small.png) Integrated Human Practices ![](http://2018.igem.org/wiki/images/6/64/T--Waterloo--HP-goldmedal_small.png)
 
+### Design Milestones
 
 &nbsp;&nbsp;&nbsp;&nbsp;As a team competing in the New Application track, it is often difficult to design a project that caters to stakeholders in one specific area or sector. For this reason, our team felt that it would be more impactful to design a co-culture system that provides a foundation that people in all areas can easily build upon. This goal helped drive our work with Integrated Human Practices, and resulted in the design of a multi-purpose tool that gives industries and researchers alike an opportunity to expand on our work into their own spaces. 
 
@@ -35,7 +34,8 @@
 
 <table style="width:100%" border="1"><tr><th><b></b>Design Milestones</th><th>Why do we want to achieve this?</th></th></tr><tr><td align="center">E.coli/E.coli</td><td align="center">The simplest organism for us to engineer and used as a proof of concept.</td></tr><tr><td align="center">E.Coli/S.cerevisiae</td><td align="center">Using different organisms opens up the door to more effective bioprocessing, as one may be more suitable for certain pathways than the other. </td></tr><tr><td align="center">Mammalian/Mammalian</td><td align="center">Demonstrating that we can create and maintain specific ratios between mammalian cells has lots of potential for research in tissue engineering and synthetic meat. </td></tr><tr><td align="center">Mammalian/Fungal</td><td align="center">Currently, fungal infections are very difficult to study in vitro, so the use of optogenetics to slow the growth of the fungi would improve the abilities of researchers to understand the reaction of fungi. </td></tr></table>
 
+&nbsp;&nbsp;&nbsp;&nbsp;Despite that these design milestones were determined earlier in the year, our team prioritized the provision of a strong proof-of-concept using two strains of _E.coli_; _JT2_ and _DH5⍺_. Preliminary experiments were conducted to creating a co-culture between _E.coli_ and _S.cerevisiae_. It was confirmed that _S.cerevisiae_ could grow in our M9 drop-out media, which is imperative for our system to work. However, they didn’t grow very well, and it would require significant modification. In anticipation of this issue presenting itself with each design milestone, we decided to focus on the _E.coli/E.coli_ proof-of-concept before continuing. To continue experiments for the remaining milestones, we would have to find a media that tailors to the needs of both organisms
+
+### Improving Communication
 (insert IAT IHP write up here)
-
-
 
