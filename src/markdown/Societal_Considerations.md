@@ -1,4 +1,3 @@
-# Societal Considerations
 
 ## Expert Consultation
 
