@@ -203,3 +203,15 @@ From the above observations, it became clear that the best setup was to have the
 The fluorescence values are a simple average between the values for the duplicates. As one can see, strain 346 is clearly more fluorescent than JT2, and the mixture is of an intermediate fluorescence. This confirms that the system can be used to measure fluorescence and distinguish between different mixtures of fluorescent and non-fluorescent cells. The mixture should have been ~50% fluorescent cells, and by linear interpolation from the data obtained one can get that the mixture is 58% fluorescent cells (from the calculation (100%)*(94.7-71.85)/(111.25-71.85)).
 
 ## Second Design and Future Experiments
+
+The “robot” used to measure fluorescence, now no longer housed in a box, was used to attempt to estimate the ratios of different populations in a co-culture. The sample tube contained both DH5α containing GFP and empty DH5α.
+
+The setup as a whole consisted of a camera with our filter in front of it, a sample tube 15 cm away from this camera, and our blue LED (which was 10 cm away from our sample). The setup looked as follows:
+
+![alt text](http://2018.igem.org/wiki/images/f/f8/T--Waterloo--robotAttempt.jpg)
+
+The actual image of the sample on the camera appeared as follows:
+
+![alt text](http://2018.igem.org/wiki/images/e/e0/T--Waterloo--robotAttemptImage.jpg)
+
+During the experiment, we intended to use a flow cytometer to confirm the population ratios, but unfortunately it broke the day before the experiment was set to run. Accordingly, we do not have confirmation that the robot correctly estimated the population ratios. However, the experiment was done in duplicate and the population were monitored over two hours, and the duplicates did at least have very similar average RGB values. This means that the machine was at least precise, even if we cannot speak to its accuracy.
