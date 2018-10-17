@@ -10,6 +10,10 @@ This would open several doors in biotech and research. For instance, metabolic e
 
 
 # What is MetE?
-
+We’re going to control the production of MetE,  an enzyme that catalyses the rate-limiting step in methionine biosynthesis [1]. Methionine is an important amino acid bacteria need to make proteins and grow. Bacteria can get it from their environment or produce it themselves using the MetE enzyme. If placed in a medium that doesn’t contain methionine, bacteria can only grow if they produce this enzyme 
 
 # What is CcaS/R? 
+CcaS/R is a light-switchable system derived from cyanobacteria which can be introduced into E. coli [1]. This system can be used to create a long term optical feedback system for gene expression in the bacterial culture. CcaS/R is a three part system consisting of CcaS, CcaR and the associated promoter region. The gene of interest, MetE in our case, is placed under the promoter region so that its expression can be controlled. CcaS is the “sensor” protein which detects the wavelength of light. CcaR is the regulator protein which binds to the promoter, which modulates gene expression when green light is detected and stops expression when red light is detected [1].
+
+# References 
+[1] A. Milias-Argeitis, M. Rullan, S. K. Aoki, P. Buchmann, and M. Khammash, “Automated optogenetic feedback control for precise and robust regulation of gene expression and cell growth,” Nature Communications, vol. 7, p. 12546, 2016.
