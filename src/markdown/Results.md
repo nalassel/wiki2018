@@ -3,7 +3,7 @@
 
 # Methionine Sharing Experiment
 
-Multiple trials went underway for the growth of empty JT2 in knockout MetE media to definitively confirm that the predicted results occured in regards to CcaS/R v2.0 JT2 and empty JT2 growth. As the goal of the experiment was to assure that there was no “leaking” of methionine from the v2.0 JT2 cells when stimulated with methionine production, leaking that could support the growth of another population. The following test matrix was performed to assess the possibilty. 
+Multiple trials went underway for the growth of empty JT2 in knockout MetE media to definitively confirm that the predicted results occured in regards to CcaS/R JT2 and empty JT2 growth. As the goal of the experiment was to assure that there was no “leaking” of methionine from the CcaS/R JT2 cells when stimulated with methionine production, leaking that could support the growth of another population. The following test matrix was performed to assess the possibilty. 
 
 <table>
   <tr>
@@ -16,7 +16,7 @@ Multiple trials went underway for the growth of empty JT2 in knockout MetE media
     <td>1</td>
     <td>Experimental</td>
     <td>
-      → M9 - met with CcaS/R v2.0 JT2 removed (3 mL)<br>
+      → M9 - met with CcaS/R JT2 removed (3 mL)<br>
       → Empty JT2 (50 µL)
     </td>
     <td>OD = 0.010</td>
@@ -25,7 +25,7 @@ Multiple trials went underway for the growth of empty JT2 in knockout MetE media
     <td>2</td>
     <td>Positive</td>
     <td>
-      → M9 - met with CcaS/R v2.0 JT2 removed (3 mL)<br>
+      → M9 - met with CcaS/R JT2 removed (3 mL)<br>
       → CcaS/R v2.0 JT2 (50 µL)
     </td>
     <td>OD = 0.820</td>
@@ -34,7 +34,7 @@ Multiple trials went underway for the growth of empty JT2 in knockout MetE media
     <td>3</td>
     <td>Positive</td>
     <td>
-      → M9 - met with CcaS/R v2.0 JT2 removed (3 mL)<br>
+      → M9 - met with CcaS/R JT2 removed (3 mL)<br>
       → Empty JT2 (50 µL)<br>
       → Met (150 µL)
     </td>
@@ -44,7 +44,7 @@ Multiple trials went underway for the growth of empty JT2 in knockout MetE media
     <td>4</td>
     <td>Negative</td>
     <td>
-      → M9 - met with CcaS/R v2.0 JT2 removed (3 mL)
+      → M9 - met with CcaS/R JT2 removed (3 mL)
     </td>
     <td>OD = -0.011</td>
   </tr>
@@ -80,17 +80,17 @@ Multiple trials went underway for the growth of empty JT2 in knockout MetE media
 
 In this chart, a negative control refers to an experiment where there was an expectation that there should be no bacterial growth as per our hypothesis, and a positive control denotes an experiment where there should have been growth expected.
 
-As can be seen from the chart, the experimental trial, in which the v2.0 JT2 strain was grown and removed from the methionine knockout media, had no growth once empty JT2 was introduced into it. This was an encouraging result as it suggested that there was little or no “leaking” of methionine produced by the v2.0 JT2 during growth into the media, and thus the empty JT2 did not have any means to grow. 
+As can be seen from the chart, the experimental trial, in which the CcaS/R JT2 strain was grown and removed from the methionine knockout media, had no growth once empty JT2 was introduced into it. This was an encouraging result as it suggested that there was little or no “leaking” of methionine produced by the CcaS/R JT2 during growth into the media, and thus the empty JT2 did not have any means to grow. 
 
-The minor growth of v2.0 JT2 as a positive in control in trial 2 was expected, and was done to confirm that there would be no adverse factors from the removal of NCM that were causing the introduced empty JT2 to not be able to grow, and that the composition of the media was static.
+The minor growth of CcaS/R JT2 as a positive in control in trial 2 was expected, and was done to confirm that there would be no adverse factors from the removal of CcaS/R JT2 that were causing the introduced empty JT2 to not be able to grow, and that the composition of the media was static.
 
 Trial 3 showed with the repliaction of experimental conditions and the addition of MetE that the reason that the growth was not happening in experimental conditions was in fact the lack of methionine in the M9 media. This showed growth as expected.
 
-Trial 4 indicated no growth as expected. This was carried out, with the removal of the NCM and addition of the antibiotic, to confirm that all the bacteria was being taken out and that no other bacterial contamination was what was being seen in the positive control tests that had reported growth.
+Trial 4 indicated no growth as expected. This was carried out, with the removal of the CcaS/R JT2 and addition of the antibiotic, to confirm that all the bacteria was being taken out and that no other bacterial contamination was what was being seen in the positive control tests that had reported growth.
 
 Trial 5 similarly was carried out with stock M9 to assure no environmental contamination was in the media from the beginning, especially bacteria that required external methionine to grow.
 
-Trial 6 was carried out as a negative control to assure that the stock media itself was not contaminated with any nutrients that could be used by the empty JT2 to grow. This was important as it is possible that trace amounts could have been consumed in the other trials by the v2.0 JT2 bacteria and thus were not reflected in the experimental trial.  
+Trial 6 was carried out as a negative control to assure that the stock media itself was not contaminated with any nutrients that could be used by the empty JT2 to grow. This was important as it is possible that trace amounts could have been consumed in the other trials by the CcaS/R JT2 bacteria and thus were not reflected in the experimental trial.  
 
 Finally, the 7th trial indicated that the empty JT2 strain that was in this bacteria was healthy and could grow in the desired conditions within the M9 media, with the methionine and the KM from stock solution.
 
