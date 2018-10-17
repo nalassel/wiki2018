@@ -44,14 +44,6 @@ _Day 3:_
 
 ### Pictures  
 
-|  ![SHAD1](http://parts.igem.org/wiki/images/f/f3/T--Waterloo-E%26E-SHAD1.jpeg)  |  ![SHAD2](http://parts.igem.org/wiki/images/f/fb/T--Waterloo-E%26E-SHAD2.jpeg)  |  ![SHAD3](http://parts.igem.org/wiki/images/6/67/T--Waterloo-E%26E-SHAD3.jpeg)  |
-|:-------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------:|
-|  ![SHAD4](http://parts.igem.org/wiki/images/4/4b/T--Waterloo-E%26E-SHAD4.jpeg)  |  ![SHAD5](http://parts.igem.org/wiki/images/d/d1/T--Waterloo-E%26E-SHAD5.jpeg)  |  ![SHAD6](http://parts.igem.org/wiki/images/9/9b/T--Waterloo-E%26E-SHAD6.jpeg)  |
-|  ![SHAD7](http://parts.igem.org/wiki/images/a/ad/T--Waterloo-E%26E-SHAD7.jpeg)  |  ![SHAD8](http://parts.igem.org/wiki/images/1/1f/T--Waterloo-E%26E-SHAD8.jpeg)  |  ![SHAD9](http://parts.igem.org/wiki/images/2/20/T--Waterloo-E%26E-SHAD9.jpeg)  |
-| ![SHAD10](http://parts.igem.org/wiki/images/1/1a/T--Waterloo-E%26E-SHAD10.jpeg) | ![SHAD11](http://parts.igem.org/wiki/images/4/48/T--Waterloo-E%26E-SHAD11.jpeg) | ![SHAD12](http://parts.igem.org/wiki/images/5/51/T--Waterloo-E%26E-SHAD12.jpeg) |
-
-### TEST
-
 ||||
 |:-------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------:|
 |  ![SHAD4](http://parts.igem.org/wiki/images/4/4b/T--Waterloo-E%26E-SHAD4.jpeg)  |  ![SHAD5](http://parts.igem.org/wiki/images/d/d1/T--Waterloo-E%26E-SHAD5.jpeg)  |  ![SHAD6](http://parts.igem.org/wiki/images/9/9b/T--Waterloo-E%26E-SHAD6.jpeg)  |
