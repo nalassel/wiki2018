@@ -10,7 +10,7 @@
 
 ## Communication and Public Bias
 
-&nbsp;&nbsp;&nbsp;&nbsp;The Implicit Association Test, or IAT, is a psychological tool for uncovering unconscious, or implicit, biases toward or against a category, like biotechnology.  For us at Waterloo iGEM, this can be a tool for learning how the people we reach the most, through social media and events, as well as our greater community, feel about synthetic biology-associated words. As this is our second time using the test, we’ve changed some things after what we learned last year!  Please continue to our [Communication](http://2018.igem.org/Team:Waterloo/Commnunication) page to learn more about our revamping, our results, and to try the IAT (insert new link) for yourself!
+&nbsp;&nbsp;&nbsp;&nbsp;The Implicit Association Test, or IAT, is a psychological tool for uncovering unconscious, or implicit, biases toward or against a category, like biotechnology.  For us at Waterloo iGEM, this can be a tool for learning how the people we reach the most, through social media and events, as well as our greater community, feel about synthetic biology-associated words. As this is our second time using the test, we’ve changed some things after what we learned last year!  Please continue to our [IAT: Take Two!](http://2018.igem.org/Team:Waterloo/Commnunication) page to learn more about our revamping, our results, and to try the IAT (insert new link) for yourself!
 
 ![](http://2018.igem.org/wiki/images/b/be/T--Waterloo--HP-E%2BE.png)
 
@@ -36,3 +36,6 @@
 <table style="width:100%" border="1"><tr><th><b></b>Design Milestones</th><th>Why do we want to achieve this?</th></th></tr><tr><td align="center">E.coli/E.coli</td><td align="center">The simplest organism for us to engineer and used as a proof of concept.</td></tr><tr><td align="center">E.Coli/S.cerevisiae</td><td align="center">Using different organisms opens up the door to more effective bioprocessing, as one may be more suitable for certain pathways than the other. </td></tr><tr><td align="center">Mammalian/Mammalian</td><td align="center">Demonstrating that we can create and maintain specific ratios between mammalian cells has lots of potential for research in tissue engineering and synthetic meat. </td></tr><tr><td align="center">Mammalian/Fungal</td><td align="center">Currently, fungal infections are very difficult to study in vitro, so the use of optogenetics to slow the growth of the fungi would improve the abilities of researchers to understand the reaction of fungi. </td></tr></table>
 
 (insert IAT IHP write up here)
+
+
+
