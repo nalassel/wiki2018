@@ -16,7 +16,7 @@
 
 ## Public Engagement and Education
 
-&nbsp;&nbsp;&nbsp;&nbsp;As always, our team dedicates a large portion of our season to interacting with students and the community regarding both our annual project as well as providing tools and resources to better understand the field of science (with a focus on synthetic biology, of course!). Between synbio workshops for high school students, literacy workshops for university students, and presenting to professors and industry leaders at a conference, we are proud to have become a team that external groups reach out to to inspire new and upcoming scientists. To read all about our engagement and education work this year, visit our [Public Engagement and Education] (http://2018.igem.org/Team:Waterloo/Engagement) page!
+&nbsp;&nbsp;&nbsp;&nbsp;As always, our team dedicates a large portion of our season to interacting with students and the community regarding both our annual project as well as providing tools and resources to better understand the field of science (with a focus on synthetic biology, of course!). Between synbio workshops for high school students, literacy workshops for university students, and presenting to professors and industry leaders at a conference, we are proud to have become a team that external groups reach out to to inspire new and upcoming scientists. To read all about our engagement and education work this year, visit our ![Public Engagement and Education] (http://2018.igem.org/Team:Waterloo/Engagement) page!
 
 (insert safety icon)
 
