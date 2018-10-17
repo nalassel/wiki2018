@@ -29,63 +29,63 @@ For a control system such as ours, the error dynamics are critical to derive. We
 
 We will use the following constrained convex optimization formulation of MHE:
 
-$\min_{\hat { x }_{T - N | T } , \hat { W } _ { T - N | T } ^ { T - 1 } } \| \hat { x } _ { T - N | T } - x _ { T - N | T } \| ^ { 2 }$
+\\[\min_{\hat { x }_{T - N | T } , \hat { W } _ { T - N | T } ^ { T - 1 } } \| \hat { x } _ { T - N | T } - x _ { T - N | T } \| ^ { 2 }\\]
 
-$- \| Y _ { T - N } ^ { T - 1 } - \mathcal { O } \hat { x } _ { T - N | T } - \overline { c b } U _ { T - N } ^ { T - 2 } \|^2 $
+\\[- \| Y _ { T - N } ^ { T - 1 } - \mathcal { O } \hat { x } _ { T - N | T } - \overline { c b } U _ { T - N } ^ { T - 2 } \|^2 \\]
 
-$+ \sum _ { k = T - N } ^ { T - 1 } \left\| \hat { w } _ { k } \right\| ^ { 2 } + \sum _ { k = T - N } ^ { T } \left\| \hat { v } _ { k } \right\| ^ { 2 },$
+\\[+ \sum _ { k = T - N } ^ { T - 1 } \left\| \hat { w } _ { k } \right\| ^ { 2 } + \sum _ { k = T - N } ^ { T } \left\| \hat { v } _ { k } \right\| ^ { 2 },\\]
 
-s.t. $\hat { x } _ { k + 1 } = A \hat { x } _ { k } + B u _ { k } + G \hat { w } _ { k } , \quad \hat { y } _ { k } = C \hat { x } _ { k } + \hat { v } _ { k }​$,
+s.t. \\[\hat { x } _ { k + 1 } = A \hat { x } _ { k } + B u _ { k } + G \hat { w } _ { k } , \quad \hat { y } _ { k } = C \hat { x } _ { k } + \hat { v } _ { k }​\\],
 
-where $T​$ is the current time, $x,y,u​$ are the population ratio, light measurement, and output signal vectors of the system, $w, v​$ are the process disturbance noises and the measurement noise respectively,
+where \\(T​\\) is the current time, \\(x,y,u​\\) are the population ratio, light measurement, and output signal vectors of the system, \\(w, v​\\) are the process disturbance noises and the measurement noise respectively,
 
-$Y _ { T - N } ^ { T } = \left[ y _ { T - N } ^ { T } , \dots , y _ { T } ^ { T } \right] ^ { T }​$
+\\[Y _ { T - N } ^ { T } = \left[ y _ { T - N } ^ { T } , \dots , y _ { T } ^ { T } \right] ^ { T }​\\]
 
-is the vector containing the past $N​$ inputs at time $T​$ with the $U​$ variant defined analagously, and $Q \succeq 0, R \succeq 0, P_{T-N|T-1} \succeq 0​$ are the covariances of $w,v,x​$ assumed to be symmetric and time invariant for the steady state MHE. The matrix $\mathcal{O}​$ is defined in Tenney (2002).
+is the vector containing the past \\(N​\\) inputs at time \\(T​\\) with the \\(U​\\) variant defined analagously, and \\(Q \succeq 0, R \succeq 0, P_{T-N|T-1} \succeq 0​\\) are the covariances of \\(w,v,x​\\) assumed to be symmetric and time invariant for the steady state MHE. The matrix \\(\mathcal{O}​\\) is defined in Tenney (2002).
 
 The error dynamics of this model are as follows:
 
-$e_{t+1} = \sum_{i} Error_{i}e_{t} + D_{i} d$. With the first term being the estimation error, and $D_{i}d$ being the error introduced by disturbing the system during measurement.
+\\(e_{t+1} = \sum_{i} Error_{i}e_{t} + D_{i} d\\). With the first term being the estimation error, and \\(D_{i}d\\) being the error introduced by disturbing the system during measurement.
 
 We have:
 
-$Error_i = MS_i F_e M^{-1},$
+\\[Error_i = MS_i F_e M^{-1},\\]
 
-$D_i = MS_i\begin{bmatrix} F_w & F_v \end{bmatrix} \begin{bmatrix} W \\ V \end{bmatrix},$
+\\[D_i = MS_i\begin{bmatrix} F_w & F_v \end{bmatrix} \begin{bmatrix} W \\ V \end{bmatrix},\\]
 
-$M = \begin{bmatrix} A^N & g_T \\\ 0 & I\end{bmatrix},$
+\\[M = \begin{bmatrix} A^N & g_T \\\ 0 & I\end{bmatrix},\\]
 
-$S_i = (I+H^{-1}\hat{K}^\top_i(\hat{K}_i H^{-1} \hat{K}_i^\top)^{-1})\hat{K}_i)^{-1} \cdot (-I + H^{-1}\hat{K}_i^\top (\hat{K}_iH^{-1}\hat{K}_i)^{-1}\hat{K}_i)H^{-1},$
+\\[S_i = (I+H^{-1}\hat{K}^\top_i(\hat{K}_i H^{-1} \hat{K}_i^\top)^{-1})\hat{K}_i)^{-1} \cdot (-I + H^{-1}\hat{K}_i^\top (\hat{K}_iH^{-1}\hat{K}_i)^{-1}\hat{K}_i)H^{-1},\\]
 
-$H \approx \begin{bmatrix} 2 P^{-1} + 2ca^\top\cdot \mathrm{diag}(R^{-1})\cdot ca & 2ca^\top \cdot \mathrm{diag}(R^{-1}) \\ 2 \cdot \mathrm{diag}(R^{-1}) \cdot ca & 2\mathrm{diag}(Q^{-1})+\mathrm{diag}(R^{-1}) \end{bmatrix},$
+\\[H \approx \begin{bmatrix} 2 P^{-1} + 2ca^\top\cdot \mathrm{diag}(R^{-1})\cdot ca & 2ca^\top \cdot \mathrm{diag}(R^{-1}) \\ 2 \cdot \mathrm{diag}(R^{-1}) \cdot ca & 2\mathrm{diag}(Q^{-1})+\mathrm{diag}(R^{-1}) \end{bmatrix},\\]
 
-$ca = \mathrm{diag}(C)\cdot a,$
+\\[ca = \mathrm{diag}(C)\cdot a,\\]
 
-$c g = \operatorname { diag } ( C ) \cdot g,$
+\\[c g = \operatorname { diag } ( C ) \cdot g,\\]
 
-$\overline{cb} = \mathrm{ diag } ( C ) \cdot \overline { b},$
+\\[\overline{cb} = \mathrm{ diag } ( C ) \cdot \overline { b},\\]
 
-$\overline { b } = \begin{bmatrix} { 0 } & { 0 } & { \cdots } & { 0 } \\ { B } & { 0 } & { \cdots } & { 0 } \\ { A \cdot B } & { B } & { \cdots } & { 0 } \\ { A ^ { 2 } \cdot B } & { A \cdot B } & { \cdots } & { 0 } \\ { \vdots } & { } & { \ddots } & { } \\ { A ^ { N - 2 }  \cdot B } & { A ^ { N - 3 } } \cdot { B } & \cdots &  { B } \end{bmatrix}$
+\\[\overline { b } = \begin{bmatrix} { 0 } & { 0 } & { \cdots } & { 0 } \\ { B } & { 0 } & { \cdots } & { 0 } \\ { A \cdot B } & { B } & { \cdots } & { 0 } \\ { A ^ { 2 } \cdot B } & { A \cdot B } & { \cdots } & { 0 } \\ { \vdots } & { } & { \ddots } & { } \\ { A ^ { N - 2 }  \cdot B } & { A ^ { N - 3 } } \cdot { B } & \cdots &  { B } \end{bmatrix}\\]
 
 
 
-$\overline {g} = \begin{bmatrix} 0 &  0 & { \cdots } & { 0 } \\ { G } & { 0 } & { \cdots } & { 0 } \\ { A \cdot G } & { G } & { \cdots } & { 0 } \\ { A ^ { 2 } \cdot G } & { A \cdot G } & { \cdots } & { 0 } \\ { \vdots } & { } & { \ddots } & { } \\ { A ^ { N - 2 } \cdot G } & { A ^ { N - 3 } \cdot G } & { \cdots } & { G } \end{bmatrix},$
+\\[\overline {g} = \begin{bmatrix} 0 &  0 & { \cdots } & { 0 } \\ { G } & { 0 } & { \cdots } & { 0 } \\ { A \cdot G } & { G } & { \cdots } & { 0 } \\ { A ^ { 2 } \cdot G } & { A \cdot G } & { \cdots } & { 0 } \\ { \vdots } & { } & { \ddots } & { } \\ { A ^ { N - 2 } \cdot G } & { A ^ { N - 3 } \cdot G } & { \cdots } & { G } \end{bmatrix},\\]
 
-$g = \begin{bmatrix} { } & { \overline { g } } & { } & { } \\ { A ^ { N - 1 } \cdot G } & { \cdots } & { G } \end{bmatrix},$
+\\[g = \begin{bmatrix} { } & { \overline { g } } & { } & { } \\ { A ^ { N - 1 } \cdot G } & { \cdots } & { G } \end{bmatrix},\\]
 
-$g_T = \begin{bmatrix} A^{N-1} \cdot G & \cdots & G \end{bmatrix},$
+\\[g_T = \begin{bmatrix} A^{N-1} \cdot G & \cdots & G \end{bmatrix},\\]
 
-$F_w  = \begin{bmatrix} 0 \\ 2 \cdot \mathrm{diag}(Q^{-1}) \end{bmatrix},$
+\\[F_w  = \begin{bmatrix} 0 \\ 2 \cdot \mathrm{diag}(Q^{-1}) \end{bmatrix},\\]
 
-$F_v = \begin{bmatrix} -ca^\top \cdot \mathrm{diag}(R^{-1}) \\ -cg^\top \cdot \mathrm{diag}(R^{-1}) \end{bmatrix},$
+\\[F_v = \begin{bmatrix} -ca^\top \cdot \mathrm{diag}(R^{-1}) \\ -cg^\top \cdot \mathrm{diag}(R^{-1}) \end{bmatrix},\\]
 
-$F _ { e } = \begin{bmatrix} { 2 P ^ { - 1 } \cdot A } & { \left[ 2 P ^ { - 1 } \cdot G , 0 , \cdots , 0 \right] } \\ { 0 } & { 0 } & { } \end{bmatrix},$
+\\[F _ { e } = \begin{bmatrix} { 2 P ^ { - 1 } \cdot A } & { \left[ 2 P ^ { - 1 } \cdot G , 0 , \cdots , 0 \right] } \\ { 0 } & { 0 } & { } \end{bmatrix},\\]
 
-$\overline { a } = \left[ \begin{array} { c } { I } \\ { A } \\ { A ^ { 2 } } \\ { \vdots } \\ { A ^ { N - 1 } } \end{array} \right]$
+\\[\overline { a } = \left[ \begin{array} { c } { I } \\ { A } \\ { A ^ { 2 } } \\ { \vdots } \\ { A ^ { N - 1 } } \end{array} \right]\\]
 
-$a = \left[ \begin{array} { c } { \overline { a } } \\ { A ^ { N } } \end{array} \right]$
+\\[a = \left[ \begin{array} { c } { \overline { a } } \\ { A ^ { N } } \end{array} \right]\\]
 
-and $\hat{K}_i, \hat{k}_i$ are the respective Lagrange multipliers and corresponding matrices.
+and \\(\hat{K}_i, \hat{k}_i\\) are the respective Lagrange multipliers and corresponding matrices.
 
 All of the above terms are derived in Voelker (2013)
 
@@ -128,7 +128,7 @@ Thus, to vary the amount of light being delivered to the system to provide a con
 #### Summary:
  * Decided to use a fixed period in the range of 1-10 minutes to minimize variability of expression of the optogenetic system controlled with pulse-width modulation.
  * Will adjust the duty cycle of PWM to affect levels of gene expression of the optogenetic system.
- 
+
 #### References:
 
 **1.** Davidson, E. A., Basu, A. S., & Bayer, T. S. (2013). Programming Microbes Using Pulse Width Modulation of Optical Signals. *Journal of Molecular Biology*, 425(22), 4161–4166. doi:10.1016/j.jmb.2013.07.036
