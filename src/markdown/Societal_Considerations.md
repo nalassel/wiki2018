@@ -1,7 +1,5 @@
 <center><img src="http://2018.igem.org/wiki/images/8/89/T--Waterloo--HP-SC.png" /></center>
 
-![](http://2018.igem.org/wiki/images/8/89/T--Waterloo--HP-SC.png)
-
 ## Expert Consultation
 
 &nbsp;&nbsp;&nbsp;&nbsp;At the University of Waterloo, we are fortunate to have strong connections with many of the professors who are always supportive of our work. This year, we reached out to professors in the Department of Biology who work in a variety of fields to gather different perspectives on our project. In addition, we were fortunate enough to have had the opportunity to speak to a representative from a biotech company in Canada. The sections below summarize our conversations throughout the year.
@@ -24,6 +22,8 @@
 
 ## Project Applications 
 
+<center><img src="http://2018.igem.org/wiki/images/3/3b/T--Waterloo--SC-apps2.png" /></center>
+
 ![](http://2018.igem.org/wiki/images/3/3b/T--Waterloo--SC-apps2.png)
 
 &nbsp;&nbsp;&nbsp;&nbsp;The use of optogenetics to maintain a stable and tunable co-culture is a very powerful tool that opens up many doors in both industry and research. To explore some of these doors, we looked to industry leaders and professionals from different fields of biology for inspiration on how they envisioned the world (including their own work) could benefit from the use of a controllable co-culture system. By combining our own imagination with their ideas, our team has outlined a series of project applications that can help propel various aspects of industry and research.  
@@ -31,6 +31,8 @@
 ### Application: Production of Functionalized Taxanes for Chemotherapy
 
 &nbsp;&nbsp;&nbsp;&nbsp;Taxane therapy is a form of chemotherapy that has dramatically increased the survival rate of breast cancer patients over the last few decades. This drug is able to inhibit mitosis and interferes with microtubules in a cell, which has been proven to be an effective treatment for cancer cells. The production of taxane has a complex pathway, however, by using a co-culture of _E. coli_ and _S. cerevisiae_. Their unique properties and functions can be exploited to create optimal environments for different steps of the pathway. _E. coli_, known for its high growth rate, can be engineered to produce large amounts of taxadiene, which is one of the intermediate products in the production of taxanes. _S. cerevisiae_, known for having advanced protein expression machinery, is a more suitable host for expressing cytochrome P450, which is an enzyme that functionalizes taxadiene through the catalysis of multiple oxygenation reactions. Currently, the co-cultures are maintained by using a media that only contains xylose as a carbon source, which is used by _E.coli_ and not _S.cerevisiae_. As xylose is metabolized by _E.coli_, it produces acetate which perturbs the growth of _E.coli_, but acts as the carbon source for _S. cerevisiae_. This interdependence between the two organisms limits the ratios that the two exist at, which directly affects the proportions of intermediates and products produced. The use of our optogenetic system provides a solution to this issue, as it gives dynamic control over the ratios between the two bacterium and can maximize the efficiency of this process. In addition, the dynamic capabilities of our system allows for quick and simple correction of population levels when one step is either falling behind or speeding up. 
+
+<center><img src="http://2018.igem.org/wiki/images/3/3b/T--Waterloo--SC-apps2.png" /></center>
 
 ![](http://2018.igem.org/wiki/images/6/61/T--Waterloo--sc-diagram.png)
 
@@ -67,7 +69,7 @@ Adapted from “Distributing metabolic pathway among a microbial consortium enha
 &nbsp;&nbsp;&nbsp;&nbsp;Cases of type 1 and type 2 diabetes have consistently been rising since the 1980s in both developed and developing countries, with reports estimating nearly 422 million people globally living with the disease. New technologies have made significant advances in the way we treat this disease, and optogenetic control with regards to cell growth is one of the most promising of these applications. Optogenetic control is a powerful in relation to the treatment of chronic diseases (such as diabetes) due to its non-invasive and targeted approach, allowing for the selective treatment of a given type of cell or region within the body. Take the secretion of insulin in pancreatic β-cells, which is a process controlled by a variety of intracellular components. Of these components, cyclic AMP (cAMP) is the most important due to its regulatory activity. With the implementation of photoactivatable adenylyl cyclase (PAC) being used to mimic the effects of cAMP along the insulin secretion pathway, a team of scientists were able to effectively promote the release of insulin levels comparable to that of secretagogues treated β-cells via the use of an inducible optogenetic control system. Where the iGEM project comes in is through the creation of a system that would allow for the control of multiple bacterial cultures at once using an optogenetic system. Being able to control and induce multiple cellular regions and cultures with a system would ultimately be the best way of controlling something like insulin secretion in the case of diabetes. The issue lies in creating an automated control system to self regulate cell growth and protein production levels without having to manually uptick or decrease the system, something the Waterloo iGEM team is directly testing and refining. 
 
 
-
+<center><img src="http://2018.igem.org/wiki/images/3/3b/T--Waterloo--SC-apps2.png" /></center>
 
 ![](http://2018.igem.org/wiki/images/0/06/T--Waterloo--sc-protein.png)
 
@@ -137,8 +139,6 @@ _Figure 2. Space filling model of folded Insulin protein_
 
 
 ## Scale-Up Challenges
-
-![](http://2018.igem.org/wiki/images/8/87/T--Waterloo--SC-scale.png)
 
 &nbsp;&nbsp;&nbsp;&nbsp;The current system that exists poses challenges for scale-up in the future. Maintaining the ratio of the co-culture is effective, but requires a sample from the turbidostat to be run on a flow cytometer to observe the current ratio, and make adjustments to the light system as necessary. The frequency of these observations is dependent on how stable you want the co-culture to be, however each iteration requires about 15 mins. This poses a challenge for scaling up this process because there is no easy way to increase the frequency or speed of these observations and thus requires someone to monitor the system over long periods of time. To address the scalability of our system, we came up with an idea that would eliminate the need for someone to monitor the co-culture and that can make continuous observations (however, the automated system was not implemented this year). 
 
