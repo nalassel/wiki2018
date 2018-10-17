@@ -22,7 +22,7 @@
 
 ## Project Applications 
 
-![](http://2018.igem.org/wiki/images/5/5c/T--Waterloo--SC-apps.png)
+![](http://2018.igem.org/wiki/images/3/3b/T--Waterloo--SC-apps2.png)
 
 &nbsp;&nbsp;&nbsp;&nbsp;The use of optogenetics to maintain a stable and tunable co-culture is a very powerful tool that opens up many doors in both industry and research. To explore some of these doors, we looked to industry leaders and professionals from different fields of biology for inspiration on how they envisioned the world (including their own work) could benefit from the use of a controllable co-culture system. By combining our own imagination with their ideas, our team has outlined a series of project applications that can help propel various aspects of industry and research.  
 
