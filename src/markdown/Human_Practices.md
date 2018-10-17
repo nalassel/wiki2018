@@ -8,17 +8,19 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;To better understand the societal impact of our project, it was important for us to explore our project in different contexts and gather opinions from our community. We began with interviews from several professors at the University of Waterloo and industry representatives, who provided us with insightful ideas about the real-world challenges and applications of our project. By combining their responses with our own imagination and research, we developed a project analysis and proposed a series of diverse potential applications of our system. Finally, we took a look at the barriers that would prevent a potential scale-up of our project and proposed a solution to overcome those barriers.  Please read more on our [Societal Considerations](http://2018.igem.org/Team:Waterloo/Societal_Considerations) page!
 
-![](http://2018.igem.org/wiki/images/e/e7/T--Waterloo--HP-com_med.png)
+<center><img src="http://2018.igem.org/wiki/images/e/e7/T--Waterloo--HP-com_med.png" /></center>
 
 ### Communication and Public Bias
 
 &nbsp;&nbsp;&nbsp;&nbsp;The Implicit Association Test, or IAT, is a psychological tool for uncovering unconscious, or implicit, biases toward or against a category, like biotechnology.  For us at Waterloo iGEM, this can be a tool for learning how the people we reach the most, through social media and events, as well as our greater community, feel about synthetic biology-associated words. As this is our second time using the test, we’ve changed some things after what we learned last year!  Please continue to our [IAT: Take Two!](http://2018.igem.org/Team:Waterloo/Commnunication) page to learn more about our revamping, our results, and to try the IAT (insert new link) for yourself!
 
-![](http://2018.igem.org/wiki/images/b/be/T--Waterloo--HP-E%2BE.png)
+<center><img src="http://2018.igem.org/wiki/images/b/be/T--Waterloo--HP-E%2BE.png" /></center>
 
 ### Public Engagement and Education
 
 &nbsp;&nbsp;&nbsp;&nbsp;As always, our team dedicates a large portion of our season to interacting with students and the community regarding both our annual project as well as providing tools and resources to better understand the field of science (with a focus on synthetic biology, of course!). Between synbio workshops for high school students, literacy workshops for university students, and presenting to professors and industry leaders at a conference, we are proud to have become a team that external groups reach out to to inspire new and upcoming scientists. To read all about our engagement and education work this year, visit our ![Public Engagement and Education] (http://2018.igem.org/Team:Waterloo/Engagement) page!
+
+<center><img src="http://2018.igem.org/wiki/images/8/89/T--Waterloo--HP-SC.png" /></center>
 
 (insert safety icon)
 
